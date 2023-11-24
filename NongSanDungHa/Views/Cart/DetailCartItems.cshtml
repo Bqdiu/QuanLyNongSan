@@ -1,0 +1,61 @@
+﻿
+@{
+    ViewBag.Title = "DetailCartItems";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model IEnumerable<NongSanDungHa.Models.user_order_product>
+@using NongSanDungHa.Models  
+@{ 
+    var user = Session["User"] as user_account;
+}
+<div class="container mt-4">
+    <h2>Chi tiết đơn hàng</h2>
+    <div class="row mt-4">
+        <div class="col-md-12">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">STT</th>
+                        <th scope="col">Tên sản phẩm</th>
+                        <th scope="col">Hình ảnh</th>
+                        <th scope="col">Số lượng</th>
+                        <th scope="col">Giá</th>
+                        <th scope="col">Tổng</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @{
+                        int i = 1;
+                        decimal sum = 0;
+                        foreach (var item in Model)
+                        {
+                            decimal tong = Convert.ToDecimal(item.product.product_price * Convert.ToDecimal(item.order_product_amount));
+                            <tr>
+                                <th scope="row">@i</th>
+                                <td>@item.product_name</td>
+                                <td><img src="@item.product.product_thumbnail_image" style="width:100px;height:100px" /></td>
+                                <td>@item.order_product_amount kg</td>
+                                <td>@item.product.product_price đ</td>
+                                <td>@tong đ</td>
+                            </tr>
+                            sum += tong;
+                            i++;
+                        }
+                    }
+
+
+
+                </tbody>
+
+            </table>
+            <div class="d-flex justify-content-between">
+                @Html.ActionLink("Trở về","DetailCart",new {Controller = "Cart",UserID = user.user_account_id},new {@class="btn btn-success"})
+                <p style="text-align: right; font-size: 23px;text-align:end">Tổng Thành Tiền: @string.Format("{0:0,0.000}", @sum) đ</p>
+            </div>
+            
+        </div>
+    </div>
+    
+</div>
+

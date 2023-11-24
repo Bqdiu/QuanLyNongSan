@@ -1,0 +1,43 @@
+﻿@model IEnumerable<NongSanDungHa.Models.ADO.admin_account>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/LayoutAdmin.cshtml";
+}
+
+<h2>Tài khoản quản trị viên</h2>
+
+<p>
+    @Html.ActionLink("Thêm mới", "CreateNew")
+</p>
+<p>
+    Tổng tài khoản: @ViewBag.TotalAdmin
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.admin_username)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.admin_password)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.admin_username)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.admin_password)
+        </td>
+        <td>
+            @Html.ActionLink("Sửa", "Edit", new { id=item.admin_account_id }) |
+            @Html.ActionLink("Chi tiết", "Detail", new { id=item.admin_account_id }) |
+            @Html.ActionLink("Xóa", "Delete", new { id=item.admin_account_id })
+        </td>
+    </tr>
+}
+
+</table>

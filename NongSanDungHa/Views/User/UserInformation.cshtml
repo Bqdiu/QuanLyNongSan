@@ -1,0 +1,47 @@
+﻿
+@{
+    ViewBag.Title = "UserInformation";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model NongSanDungHa.Models.ADO.user_account
+
+<div class="container w-50 mt-5 mb-3" style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;border-radius:10px;color: #667580">
+    <div class="row ">
+        <div class="col-md-12">
+            <h2 style="font-weight: 700 !important;padding-top:10px">Thông tin cá nhân</h2>
+        </div>
+
+
+
+
+
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <hr style="width:100%;color:silver;" />
+        </div>
+
+    </div>
+    <div class="row ">
+        <div class="col-md-3 mb-3" style="display: grid; place-items:center">
+            <img src="https://img.freepik.com/fotos-premium/ilustracao-em-vetor-de-personagem-de-desenho-animado-de-legumes-engracados-de-alface-kawaii_780593-2242.jpg?size=338&ext=jpg&ga=GA1.1.386372595.1698105600&semt=ais" style="width:150px; height:150px;border-radius:100px" />
+        </div>
+        <div class="col-md-9 mb-3">
+            <p>Họ Tên: <b>@Model.user_lastname @Model.user_firstname</b> </p>
+            <p>Giới tính: <b> @Model.user_gender</b></p>
+            <p>SĐT: <b>@Model.user_phonenumber</b></p>
+            <p>Email: <b>@Model.user_email</b></p>
+            <p>Địa chỉ: <b>@Model.user_address</b></p>
+            <hr />
+            <div class="d-flex w-100" style="justify-content:space-between">
+                <p>Thành viên: <b> @Model.user_member_tier</b></p>
+                <p>Điểm: <b>@Model.user_point</b> </p>
+            </div>
+            
+            <a class="btn btn-danger" href="@Url.Action("ChangeUserInformation","User", new {UserID = Model.user_account_id})" role="button">Cập nhật thông tin</a>
+        </div>
+    </div>
+   
+</div>
+

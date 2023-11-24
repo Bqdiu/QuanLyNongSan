@@ -1,0 +1,89 @@
+﻿@model PagedList.IPagedList<NongSanDungHa.Models.product>
+@using NongSanDungHa.Models
+@{
+    ViewBag.Title = "ShowCategory";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using PagedList.Mvc;
+@using PagedList;
+<style>
+    .pagination > .active > a {
+        background-color: #52a851;
+        border-color: #52a851;
+    }
+</style>
+@{ 
+    var category = ViewBag.NameCategory as product_category;
+}
+<div class="container mt-4">
+    <div class="row mb-4">
+        <div class="col-md-12">
+            @{
+                
+                    <h3 style="color: #939393; font-size: 20px; font-weight: bold">@Html.ActionLink("Trang Chủ", "Index", "", new { style = "color: #939393" }) / @category.product_category_name</h3>
+                
+            }
+
+        </div>
+
+    </div>
+    <div class="row mb-4">
+        <div class="col-md-2"><p style="padding-top:6px">Lọc Sản phẩm:</p></div>
+        <div class="col-md-3">
+            <form id="filter_" method="get" action="/Home/ShowCategory/@category.product_category_id">
+                <i style="position: absolute; padding: 10px; right: 10% !important; color: #495057" class="fas fa-caret-down"></i>
+                @Html.DropDownList("filter", (IEnumerable<SelectListItem>)ViewBag.FilterItems, new { @class = "form-control" })
+            </form>
+            <script>
+                let form = document.forms['filter_'];
+                let menu = form.filter;
+                let options = form.filter.options;
+                
+                menu.onchange = function () {
+                    let index = this.selectedIndex;
+                    
+                    
+                    form.submit();
+                }
+                
+                //function myFunction() {
+                //    document.getElementById("filter_").submit();
+                    
+                    
+                    
+                //}
+
+            </script>
+        </div>
+        <div class="col-md-7" style="text-align:right">
+            <p style="padding-top:6px">Hiển thị @Model.Count / @ViewBag.CountProducts Sản Phẩm</p>
+        </div>
+    </div>
+
+
+    <div class="row">
+        @{
+            foreach (product item in Model)
+            {
+                <div class="col-md-3">
+                    <div class="card mb-3" style="width: 19rem">
+                        <img style="height: 265px" src="@item.product_thumbnail_image" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center" style="height:48px">@Html.ActionLink(item.product_name, "ShowDetailProduct", new { id = item.product_id, product_category_id = item.product_category_id })</h5>
+                            <p class="card-text text-center" style="font-weight: 500">HCM: @item.product_price</p>
+                            @Html.ActionLink("Mua Ngay", "ShowDetailProduct", new { id = item.product_id, product_category_id = item.product_category_id }, new { @class = "btn btn-primary", style = "width: 100%; background-color: #52a851; border-color: white" })
+
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+
+    </div>
+    <nav aria-label="Page navigation example" style="display: flex;justify-content:center;align-items:center">
+        <ul class="pagination ">
+            @Html.PagedListPager(Model, page => Url.Action("ShowCategory", new { page = page }), new PagedListRenderOptions { LiElementClasses = new string[] { "page-item" } } )
+        </ul>
+    </nav>
+   
+</div>

@@ -1,0 +1,187 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Thông tin đơn hàng mới từ khách hàng: {{CustomerName}}</title>
+  
+    
+    <style>
+        * {
+            font-family: Arial,Helvetica,sans-serif;
+        }
+
+        .logo {
+            border-collapse: collapse;
+            padding-bottom: 20px;
+            border: 4px solid #52a851;
+            font-size: 0pt;
+            line-height: 0pt;
+            border-left: 0px;
+            border-right: 0px;
+            width:50%;
+        
+        }
+        .container-logo
+        {
+            display:grid;
+            place-items:center;
+        }
+    </style>
+
+</head>
+<body>
+    <div style="padding: 0 !important; margin: 0 !important; display: block !important; min-width: 100% !important; width: 100% !important">
+        <table width="100%" border="0" cellpadding="0" cellspacing="0" >
+            <tbody>
+                <tr>
+                    <td valign="top" style="padding:50px 10px">
+                        <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                            <tbody>
+                                <tr>
+
+                                    <td style="width: 700px; min-width: 700px; font-size: 0pt; line-height: 0pt; padding: 0; margin: 0; font-weight: normal">
+                                        <table align="center" class="logo">
+                                            <tr>
+
+                                                <td align="center" style="padding:20px 0 20px 0;"><img src="https://nongsandungha.com/assets/img/logo.jpg" /></td>
+
+                                            </tr>
+
+                                        </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+
+                        </table>
+                        <div class="container-fluid">
+                            <h2>Kính gửi Quý khách!</h2>
+                            <p>
+                                Nông sản Dũng Hà gửi lời cám ơn đến Quý khách đã tin tưởng sử dụng dịch vụ của chúng tôi. <br />
+                                Quá trình đặt hàng đã hoàn tất, sau đây là thông tin đơn hàng:
+                            </p>
+                            <div class="container-fluid">
+                                <h2 style="color: #f76603">Sản Phẩm</h2>
+                                <hr />
+                                <table style="width:100%">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col"></th>
+                                            <th scope="col">Sản Phẩm</th>
+                                            <th scope="col">Số Lượng</th>
+                                            <th scope="col">Đơn Giá</th>
+                                            <th scope="col"></th>
+                                            <th scope="col">Thành Tiền</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+
+                                        <tr >
+                                            {{SanPham}}
+
+                                        </tr>
+                                        <tr style="font-weight:bold">
+                                            <td class="border-0"></td>
+                                            <td class="border-0"></td>
+                                            <td class="border-0"></td>
+                                            <td class="border-0" style="text-align:right">Giảm Giá:</td>
+                                            <td class="border-0">0 đ</td>
+                                        </tr>
+                                        <tr style="font-weight:bold">
+                                            <td class="border-0"></td>
+                                            <td class="border-0"></td>
+                                            <td class="border-0"></td>
+                                            <td class="border-0" style="text-align:right">Phí Vận Chuyển:</td>
+                                            <td class="border-0">30.000 đ</td>
+                                        </tr>
+                                        <tr style="font-weight:bold">
+                                            <td class="border-0"></td>
+                                            <td class="border-0"></td>
+                                            <td class="border-0"></td>
+                                            <td class="border-0" style="text-align:right">Thành Tiền:</td>
+                                            <td class="border-0">{{TongTien}} đ</td>
+                                        </tr>
+
+
+                                    </tbody>
+                                </table>
+
+                                <h2 style="color: #f76603">Thông Tin Khách Hàng</h2>
+                                <table width="100%" cellpadding="0" border="0" cellspacing="0" style="background-color:white">
+                                    <tbody>
+                                        <tr>
+                                            <td width="60%" style="padding:5px 10px 5px 0;text-align:right">
+                                                Tên Khách Hàng:
+                                            </td>
+                                            <td width="40%" style="padding:5px 0 5px 10px">
+                                                {{TenKhachHang}}
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="60%" style="padding:5px 10px 5px 0;text-align:right">
+                                                Số Điện Thoại:
+                                            </td>
+                                            <td width="40%" style="padding:5px 0 5px 10px">
+                                                {{SDT}}
+                                            </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td width="60%" style="padding:5px 10px 5px 0;text-align:right">
+                                                Email:
+                                            </td>
+                                            <td width="40%" style="padding:5px 0 5px 10px">
+                                                {{Email}}
+                                            </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td width="60%" style="padding:5px 10px 5px 0;text-align:right">
+                                                Địa Chỉ:
+                                            </td>
+                                            <td width="40%" style="padding:5px 0 5px 10px">
+                                                {{DiaChi}}
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="60%" style="padding:5px 10px 5px 0;text-align:right">
+                                                Trạng Thái:
+                                            </td>
+                                            <td width="40%" style="padding:5px 0 5px 10px">
+                                                {{TrangThai}}
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="60%" style="padding:5px 10px 5px 0;text-align:right">
+                                                Hình Thức Thanh Toán:
+                                            </td>
+                                            <td width="40%" style="padding:5px 0 5px 10px">
+                                                {{HinhThuc}}
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <hr />
+                                <p style="font-style:italic">
+                                    Nhân viên của Nông Sản Dũng Hà sẽ liên hệ với Quí khách để xác nhận đơn hàng và thông báo việc chuyển hàng tới Quí khách. <br />
+                                    Một lần nữa trân trọng cám ơn Quí khách đã mua hàng tại Nông Sản Dũng Hà.
+                                </p>
+                            </div>
+
+                            <div class="container-fluid" style="padding:20px;background-color:silver">
+                                <div class="logo_thumb"><img src="https://nongsandungha.com/assets/img/logo.jpg" /></div>
+                                <p><b>Trụ sở chính phân phối và bán lẻ</b></p>
+                                <p>683 đường Giải Phóng phường Giáp Bát quận Hoàng Mai Tp. Hà Nội</p>
+                                <p>Hotline: (+84) 1900 986 865</p>
+                                <p><a href="https://nongsandungha.com/">https://nongsandungha.com/</a></p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        
+
+    </div>
+   
+</body>
+</html>

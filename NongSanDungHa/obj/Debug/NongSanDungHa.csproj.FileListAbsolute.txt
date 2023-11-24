@@ -1,0 +1,528 @@
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\NongSanDungHa.dll.config
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\NongSanDungHa.dll
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\NongSanDungHa.pdb
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\roslyn\csc.exe
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\roslyn\csc.exe.config
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\roslyn\csc.rsp
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\roslyn\csi.exe
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\roslyn\csi.exe.config
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\roslyn\csi.rsp
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\roslyn\Microsoft.Managed.Core.targets
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\roslyn\System.AppContext.dll
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Collections.Immutable.dll
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Console.dll
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Globalization.Calendars.dll
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\roslyn\System.IO.Compression.dll
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\roslyn\System.IO.FileSystem.dll
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Net.Http.dll
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Net.Sockets.dll
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Reflection.Metadata.dll
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\roslyn\System.ValueTuple.dll
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Xml.XmlDocument.dll
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Xml.XPath.dll
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\roslyn\vbc.exe
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\roslyn\vbc.exe.config
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\roslyn\vbc.rsp
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\roslyn\VBCSCompiler.exe
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\roslyn\VBCSCompiler.exe.config
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\Antlr3.Runtime.dll
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\EntityFramework.dll
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\EntityFramework.SqlServer.dll
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\Microsoft.Web.Infrastructure.dll
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\Newtonsoft.Json.dll
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\System.Web.Helpers.dll
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\System.Web.Mvc.dll
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\System.Web.Optimization.dll
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\System.Web.Razor.dll
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\System.Web.WebPages.Deployment.dll
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\System.Web.WebPages.dll
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\System.Web.WebPages.Razor.dll
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\WebGrease.dll
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\EntityFramework.xml
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\EntityFramework.SqlServer.xml
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\System.Web.Helpers.xml
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\System.Web.Mvc.xml
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\System.Web.Optimization.xml
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\System.Web.Razor.xml
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\System.Web.WebPages.xml
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\System.Web.WebPages.Deployment.xml
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\System.Web.WebPages.Razor.xml
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\Newtonsoft.Json.xml
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\Antlr3.Runtime.pdb
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\obj\Debug\NongSanDungHa.csproj.AssemblyReference.cache
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\obj\Debug\NongSanDungHa.csproj.CoreCompileInputs.cache
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\obj\Debug\NongSanDungHa.csproj.CopyComplete
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\obj\Debug\NongSanDungHa.dll
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\obj\Debug\NongSanDungHa.pdb
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\PagedList.dll
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\PagedList.Mvc.dll
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\PagedList.xml
+D:\VS2022 Documentary\NongSanDungHa\NongSanDungHa\bin\PagedList.Mvc.xml
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\NongSanDungHa.dll.config
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\NongSanDungHa.dll
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\NongSanDungHa.pdb
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\roslyn\csc.exe
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\roslyn\csc.exe.config
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\roslyn\csc.rsp
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\roslyn\csi.exe
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\roslyn\csi.exe.config
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\roslyn\csi.rsp
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\roslyn\System.AppContext.dll
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Collections.Immutable.dll
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Console.dll
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Globalization.Calendars.dll
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\roslyn\System.IO.Compression.dll
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\roslyn\System.IO.FileSystem.dll
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Net.Http.dll
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Net.Sockets.dll
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Reflection.Metadata.dll
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\roslyn\System.ValueTuple.dll
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Xml.XPath.dll
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\roslyn\vbc.exe
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\roslyn\vbc.exe.config
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\roslyn\vbc.rsp
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\roslyn\VBCSCompiler.exe
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\roslyn\VBCSCompiler.exe.config
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\Antlr3.Runtime.dll
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\EntityFramework.dll
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\EntityFramework.SqlServer.dll
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\Microsoft.Web.Infrastructure.dll
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\Newtonsoft.Json.dll
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\PagedList.dll
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\PagedList.Mvc.dll
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\System.Web.Helpers.dll
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\System.Web.Mvc.dll
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\System.Web.Optimization.dll
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\System.Web.Razor.dll
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\System.Web.WebPages.Deployment.dll
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\System.Web.WebPages.dll
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\System.Web.WebPages.Razor.dll
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\WebGrease.dll
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\EntityFramework.xml
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\EntityFramework.SqlServer.xml
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\PagedList.xml
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\PagedList.Mvc.xml
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\System.Web.Helpers.xml
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\System.Web.Mvc.xml
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\System.Web.Optimization.xml
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\System.Web.Razor.xml
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\System.Web.WebPages.xml
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\System.Web.WebPages.Deployment.xml
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\System.Web.WebPages.Razor.xml
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\Newtonsoft.Json.xml
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\Antlr3.Runtime.pdb
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\obj\Debug\NongSanDungHa.csproj.AssemblyReference.cache
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\obj\Debug\NongSanDungHa.csproj.CoreCompileInputs.cache
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\obj\Debug\NongSanDungHa.csproj.CopyComplete
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\obj\Debug\NongSanDungHa.dll
+D:\Tài liệu\WorkSpace\HUFI\LapTrinhWeb\BaoCaLan2\new\NongSanDungHa\NongSanDungHa\obj\Debug\NongSanDungHa.pdb
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\NongSanDungHa.dll.config
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\NongSanDungHa.dll
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\NongSanDungHa.pdb
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\roslyn\csc.exe
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\roslyn\csc.exe.config
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\roslyn\csc.rsp
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\roslyn\csi.exe
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\roslyn\csi.exe.config
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\roslyn\csi.rsp
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\roslyn\Microsoft.Managed.Core.targets
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.AppContext.dll
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Collections.Immutable.dll
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Console.dll
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Globalization.Calendars.dll
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.IO.Compression.dll
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.IO.FileSystem.dll
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Net.Http.dll
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Net.Sockets.dll
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Reflection.Metadata.dll
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.ValueTuple.dll
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Xml.XmlDocument.dll
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Xml.XPath.dll
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\roslyn\vbc.exe
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\roslyn\vbc.exe.config
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\roslyn\vbc.rsp
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\roslyn\VBCSCompiler.exe
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\roslyn\VBCSCompiler.exe.config
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\Antlr3.Runtime.dll
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\EntityFramework.dll
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\EntityFramework.SqlServer.dll
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\Microsoft.Web.Infrastructure.dll
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\Newtonsoft.Json.dll
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\PagedList.dll
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\PagedList.Mvc.dll
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\System.Web.Helpers.dll
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\System.Web.Mvc.dll
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\System.Web.Optimization.dll
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\System.Web.Razor.dll
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\System.Web.WebPages.Deployment.dll
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\System.Web.WebPages.dll
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\System.Web.WebPages.Razor.dll
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\WebGrease.dll
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\EntityFramework.xml
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\EntityFramework.SqlServer.xml
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\PagedList.xml
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\PagedList.Mvc.xml
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\System.Web.Helpers.xml
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\System.Web.Mvc.xml
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\System.Web.Optimization.xml
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\System.Web.Razor.xml
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\System.Web.WebPages.xml
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\System.Web.WebPages.Deployment.xml
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\System.Web.WebPages.Razor.xml
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\Newtonsoft.Json.xml
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\Antlr3.Runtime.pdb
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\obj\Debug\NongSanDungHa.csproj.AssemblyReference.cache
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\obj\Debug\NongSanDungHa.csproj.CoreCompileInputs.cache
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\obj\Debug\NongSanDungHa.csproj.CopyComplete
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\obj\Debug\NongSanDungHa.dll
+D:\VS2022 Documentary\NongSanDungHa (1)\NongSanDungHa\NongSanDungHa\obj\Debug\NongSanDungHa.pdb
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\NongSanDungHa.dll.config
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\NongSanDungHa.dll
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\NongSanDungHa.pdb
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\csc.exe
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\csc.exe.config
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\csc.rsp
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\csi.exe
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\csi.exe.config
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\csi.rsp
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\Microsoft.Managed.Core.targets
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.AppContext.dll
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Collections.Immutable.dll
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Console.dll
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Globalization.Calendars.dll
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.IO.Compression.dll
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.IO.FileSystem.dll
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Net.Http.dll
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Net.Sockets.dll
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Reflection.Metadata.dll
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.ValueTuple.dll
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Xml.XmlDocument.dll
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Xml.XPath.dll
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\vbc.exe
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\vbc.exe.config
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\vbc.rsp
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\VBCSCompiler.exe
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\VBCSCompiler.exe.config
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\Antlr3.Runtime.dll
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\EntityFramework.dll
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\EntityFramework.SqlServer.dll
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\Microsoft.Web.Infrastructure.dll
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\Newtonsoft.Json.dll
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\PagedList.dll
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\PagedList.Mvc.dll
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\System.Web.Helpers.dll
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\System.Web.Mvc.dll
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\System.Web.Optimization.dll
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\System.Web.Razor.dll
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\System.Web.WebPages.Deployment.dll
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\System.Web.WebPages.dll
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\System.Web.WebPages.Razor.dll
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\WebGrease.dll
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\EntityFramework.xml
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\EntityFramework.SqlServer.xml
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\PagedList.xml
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\PagedList.Mvc.xml
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\System.Web.Helpers.xml
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\System.Web.Mvc.xml
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\System.Web.Optimization.xml
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\System.Web.Razor.xml
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\System.Web.WebPages.xml
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\System.Web.WebPages.Deployment.xml
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\System.Web.WebPages.Razor.xml
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\Newtonsoft.Json.xml
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\Antlr3.Runtime.pdb
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\obj\Debug\NongSanDungHa.csproj.AssemblyReference.cache
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\obj\Debug\NongSanDungHa.csproj.CoreCompileInputs.cache
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\obj\Debug\NongSanDungHa.csproj.CopyComplete
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\obj\Debug\NongSanDungHa.dll
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\obj\Debug\NongSanDungHa.pdb
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\JetBrains.Annotations.dll
+D:\VS2022 Documentary\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\JetBrains.Annotations.xml
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\NongSanDungHa.dll.config
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\NongSanDungHa.dll
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\NongSanDungHa.pdb
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\csc.exe
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\csc.exe.config
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\csc.rsp
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\csi.exe
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\csi.exe.config
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\csi.rsp
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\Microsoft.Managed.Core.targets
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.AppContext.dll
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Collections.Immutable.dll
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Console.dll
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Globalization.Calendars.dll
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.IO.Compression.dll
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.IO.FileSystem.dll
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Net.Http.dll
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Net.Sockets.dll
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Reflection.Metadata.dll
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.ValueTuple.dll
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Xml.XmlDocument.dll
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Xml.XPath.dll
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\vbc.exe
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\vbc.exe.config
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\vbc.rsp
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\VBCSCompiler.exe
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\roslyn\VBCSCompiler.exe.config
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\Antlr3.Runtime.dll
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\EntityFramework.dll
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\EntityFramework.SqlServer.dll
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\JetBrains.Annotations.dll
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\Microsoft.Web.Infrastructure.dll
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\Newtonsoft.Json.dll
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\PagedList.dll
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\PagedList.Mvc.dll
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\System.Web.Helpers.dll
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\System.Web.Mvc.dll
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\System.Web.Optimization.dll
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\System.Web.Razor.dll
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\System.Web.WebPages.Deployment.dll
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\System.Web.WebPages.dll
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\System.Web.WebPages.Razor.dll
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\WebGrease.dll
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\EntityFramework.xml
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\EntityFramework.SqlServer.xml
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\JetBrains.Annotations.xml
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\PagedList.xml
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\PagedList.Mvc.xml
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\System.Web.Helpers.xml
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\System.Web.Mvc.xml
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\System.Web.Optimization.xml
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\System.Web.Razor.xml
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\System.Web.WebPages.xml
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\System.Web.WebPages.Deployment.xml
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\System.Web.WebPages.Razor.xml
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\Newtonsoft.Json.xml
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\Antlr3.Runtime.pdb
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\obj\Debug\NongSanDungHa.csproj.AssemblyReference.cache
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\obj\Debug\NongSanDungHa.csproj.CoreCompileInputs.cache
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\obj\Debug\NongSanDungHa.csproj.CopyComplete
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\obj\Debug\NongSanDungHa.dll
+D:\VS2022 Documentary\LT WEB\NongSanDungHa (Updated)\NongSanDungHa\NongSanDungHa\obj\Debug\NongSanDungHa.pdb
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\obj\Debug\NongSanDungHa.csproj.AssemblyReference.cache
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\obj\Debug\NongSanDungHa.csproj.CoreCompileInputs.cache
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\obj\Debug\NongSanDungHa.dll
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\obj\Debug\NongSanDungHa.pdb
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\NongSanDungHa.dll.config
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\NongSanDungHa.dll
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\NongSanDungHa.pdb
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\roslyn\csc.exe
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\roslyn\csc.exe.config
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\roslyn\csc.rsp
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\roslyn\csi.exe
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\roslyn\csi.exe.config
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\roslyn\csi.rsp
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\roslyn\System.AppContext.dll
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\roslyn\System.Console.dll
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\roslyn\System.IO.Compression.dll
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\roslyn\System.Net.Http.dll
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\roslyn\System.Net.Sockets.dll
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\roslyn\System.ValueTuple.dll
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\roslyn\System.Xml.XPath.dll
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\roslyn\vbc.exe
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\roslyn\vbc.exe.config
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\roslyn\vbc.rsp
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\roslyn\VBCSCompiler.exe
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\Antlr3.Runtime.dll
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\EntityFramework.dll
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\EntityFramework.SqlServer.dll
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\JetBrains.Annotations.dll
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\Newtonsoft.Json.dll
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\PagedList.dll
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\PagedList.Mvc.dll
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\System.Web.Helpers.dll
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\System.Web.Mvc.dll
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\System.Web.Optimization.dll
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\System.Web.Razor.dll
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\System.Web.WebPages.Deployment.dll
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\System.Web.WebPages.dll
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\System.Web.WebPages.Razor.dll
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\WebGrease.dll
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\EntityFramework.xml
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\EntityFramework.SqlServer.xml
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\JetBrains.Annotations.xml
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\PagedList.xml
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\PagedList.Mvc.xml
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\System.Web.Helpers.xml
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\System.Web.Mvc.xml
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\System.Web.Optimization.xml
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\System.Web.Razor.xml
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\System.Web.WebPages.xml
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\System.Web.WebPages.Deployment.xml
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\System.Web.WebPages.Razor.xml
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\Newtonsoft.Json.xml
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\Antlr3.Runtime.pdb
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\boqua\OneDrive\Tài liệu\GitHub\QuanLyNongSan\NongSanDungHa\obj\Debug\NongSanDungHa.csproj.CopyComplete

@@ -1,0 +1,65 @@
+﻿@model IEnumerable<NongSanDungHa.Models.ADO.product>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/LayoutAdmin.cshtml";
+}
+
+<h2>Sản Phẩm</h2>
+
+<p>
+    @Html.ActionLink("Thêm mới", "CreateNew")
+</p>
+<p>
+   
+    Tổng số sản phẩm: @ViewBag.TotalProduct
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayName("STT")
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.product_category_id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.product_name)
+        </th>
+
+        <th>
+            @Html.DisplayNameFor(model => model.product_thumbnail_image)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.product_price)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.product_id)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.product_category_id)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.product_name)
+        </td>
+  
+        <td>
+            <img style="width:100px;height: 100px" src="@item.product_thumbnail_image" />
+
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.product_price)
+        </td>
+        <td>
+            @Html.ActionLink("Chỉnh sửa", "Edit", new { id = item.product_id, category_id = item.product_category_id }) |
+            @Html.ActionLink("Chi tiết", "Detail", new { id = item.product_id, category_id = item.product_category_id }) |
+            @Html.ActionLink("Xóa", "Delete", new { id = item.product_id })
+        </td>
+    </tr>
+}
+
+</table>

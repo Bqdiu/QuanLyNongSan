@@ -1,0 +1,119 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+
+}
+@model NongSanDungHa.Models.Cart    
+@{ 
+    var user = Session["User"] as NongSanDungHa.Models.user_account;
+
+}
+<div class="container mt-4" style="height:600px">
+    <h2>Giỏ Hàng</h2>
+    <div class="row mt-4">
+        <div class="col-md-12">
+            @{ 
+                   
+                    if (Session["Cart"] != null)
+                    {
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">STT</th>
+                                        <th scope="col">Tên sản phẩm</th>
+                                        <th scope="col">Hình ảnh</th>
+                                        <th scope="col">Số lượng</th>
+                                        <th scope="col">Giá</th>
+                                        <th scope="col">Tổng</th>
+                                        <th scope="col"><a href="@Url.Action("Remove_AllCartItem","Cart")">Xóa tất cả</a></th>
+                                    </tr>
+                                </thead>
+
+                                <tbody>
+
+                                    @{
+
+                                        int i = 1;
+
+                                        foreach (var item in Model.Items)
+                                        {
+                                            decimal tong = Convert.ToDecimal(item._shopping_product.product_price * Convert.ToDecimal(item._shopping_quantity));
+                                            <tr>
+                                                <th scope="row">@i</th>
+                                                <td>@item._shopping_product.product_name</td>
+                                                <td><img src="@item._shopping_product.product_thumbnail_image" style="width: 100px; height:100px" /></td>
+                                                <td>
+
+
+                                                    <div class="btn-group" style="width: 30%" role="group" aria-label="Basic example">
+                                                        <form method="post" action="~/Cart/Update_Quantity_Decrease">
+                                                            <input type="hidden" name="product_id" value="@item._shopping_product.product_id" />
+                                                            <input type="hidden" name="quantity" value="@item._shopping_quantity" />
+                                                            <button type="submit" class="btn btnn decrease btn-outline-success ">-</button>
+                                                        </form>
+
+
+                                                        <input id="value" name="Quantity" style="width:60px" class="form-control btn-outline-success" type="text"  value="@item._shopping_quantity" aria-label="default input example">
+                                                        @*<span id="value">0</span>*@
+                                                        <form method="post" action="~/Cart/Update_Quantity_Increase">
+                                                            <input type="hidden" name="product_id" value="@item._shopping_product.product_id" />
+                                                            <input type="hidden" name="quantity" value="@item._shopping_quantity" />
+                                                            <button type="submit" class="btn btnn increase btn-outline-success">+</button>
+                                                        </form>
+
+                                                    </div>
+
+
+                                                </td>
+                                                <td>@item._shopping_product.product_price đ</td>
+
+
+                                                <td>@string.Format("{0:0,0.000}", @tong) đ</td>
+                                                <td>
+                                                    <form method="post" action="~/Cart/Remove_CartItem">
+                                                        <input type="hidden" name="product_id" value="@item._shopping_product.product_id" />
+                                                        <button type="submit" style="border:0px;background-color:transparent"><i class="fas fa-trash fa-lg" style="color: #ff1100;"></i></button>
+                                                    </form>
+
+                                                </td>
+                                            </tr>
+                                            i++;
+                                        }
+                                    }
+
+                                </tbody>
+
+
+                            </table>
+                           
+                            <form method="get" action="~/Cart/ConfirmPayment">
+                                <div class="d-flex" style="flex-direction:row;justify-content:flex-end">
+                                    <p style="text-align:right;font-size:23px;margin-right:30px">Phí Vận Chuyển: 30.000đ</p>
+                                    <p style="text-align:right;font-size: 23px;color:red">Tổng Thành Tiền: @string.Format("{0:0,0.000}", @Model.Total_Money()) đ</p>
+                                </div>
+                              
+                                <button type="submit" class="btn btn-success">Thanh toán ngay</button>
+                                @Html.ActionLink("Mua tiếp", "Index",new {Controller ="Home"}, new { @class = "btn btn-success" })
+                            </form>
+                            
+                          
+
+                       
+                    
+
+                   
+                }
+                else
+                {
+                    <div class="alert alert-danger" role="alert">
+                        Chưa có sản phẩm trong giỏ hàng
+                    </div>
+                }
+            }
+
+        </div>
+    </div>
+</div>
+
+

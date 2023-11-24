@@ -1,0 +1,62 @@
+﻿@model IEnumerable<NongSanDungHa.Models.ADO.product_discount_event>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/LayoutAdmin.cshtml";
+}
+
+<h2>Sự kiện khuyến mãi</h2>
+
+<p>
+    @Html.ActionLink("Thêm mới", "CreateNew")
+</p>
+<p>
+    Tổng số khuyến mãi: @ViewBag.TotalDiscount
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.discount_event_image)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.discount_event_name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.discount_event_description)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.discount_event_DateCreated)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.product_category_id)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            <img style="width: 200px; height: 200px" src="@item.discount_event_image" />
+
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.discount_event_name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.discount_event_description)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.discount_event_DateCreated)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.product_category_id)
+        </td>
+        <td>
+            @Html.ActionLink("Sửa", "Edit", new { id = item.discount_event_id }) |
+            @Html.ActionLink("Chi tiết", "Detail", new { id = item.discount_event_id }) |
+            @Html.ActionLink("Xóa", "Delete", new { id = item.discount_event_id })
+        </td>
+    </tr>
+}
+
+</table>

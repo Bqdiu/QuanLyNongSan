@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 12.375" name="DBNongSanDungHa">
+  <DataContextMoniker Name="/DBNongSanDungHaDataContext" />
+  <nestedChildShapes>
+    <classShape Id="f58f8fd7-f79c-453e-b756-c4b17a70846d" absoluteBounds="0.75, 0.75, 2, 1.3862939453125">
+      <DataClassMoniker Name="/DBNongSanDungHaDataContext/admin_account" />
+      <nestedChildShapes>
+        <elementListCompartment Id="43452f2b-f5bd-4cd0-a4b8-35d250df4e6f" absoluteBounds="0.765, 1.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="71eb7cd2-2dba-41a4-a72b-5e94b44ea72c" absoluteBounds="6.25, 0.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/DBNongSanDungHaDataContext/user_order_product" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e2299ef3-cda9-4ee4-89b9-6ab0e9afbd9f" absoluteBounds="6.265, 1.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="26d056d4-9557-43d1-a5d9-8734d656e154" absoluteBounds="3.5, 3.5, 2, 1.9631982421875005">
+      <DataClassMoniker Name="/DBNongSanDungHaDataContext/product" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6a0f69f3-1072-4a7d-be9b-0fcb4513205d" absoluteBounds="3.515, 3.96, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="05fa0540-b9da-4e59-8b4e-51980f0ad9f0" absoluteBounds="0.75, 5.25, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/DBNongSanDungHaDataContext/product_category" />
+      <nestedChildShapes>
+        <elementListCompartment Id="932e62d0-860c-431e-b872-797494e9b159" absoluteBounds="0.765, 5.71, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a661e5fe-ffe1-47e3-8ea4-d78bd41dd258" absoluteBounds="3.5, 6.25, 2, 1.9631982421874996">
+      <DataClassMoniker Name="/DBNongSanDungHaDataContext/product_discount_event" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4eef21b7-5db0-4c01-8404-bc2243d304c1" absoluteBounds="3.515, 6.71, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="fa4e6fbd-66ad-41fa-a5f1-6116458a6d9b" absoluteBounds="6.25, 3.875, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/DBNongSanDungHaDataContext/product_image" />
+      <nestedChildShapes>
+        <elementListCompartment Id="77dc6ce1-76f2-44ef-a677-8fdfb1bd2d63" absoluteBounds="6.265, 4.335, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7deb582f-37bf-411c-b46c-efe824c98751" absoluteBounds="6.25, 6.5, 2, 1.9631982421874996">
+      <DataClassMoniker Name="/DBNongSanDungHaDataContext/product_review" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3c62090e-b3c0-4eb3-a372-71b2ef8bc26f" absoluteBounds="6.265, 6.96, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3878c9bd-0d86-4737-b072-86bdc93073f6" absoluteBounds="0.75, 9.25, 2, 2.9247054036458309">
+      <DataClassMoniker Name="/DBNongSanDungHaDataContext/user_account" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7554c6db-3b94-47cb-9fc9-ad31a15ce851" absoluteBounds="0.765, 9.71, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a0c90fc6-304b-4136-b9b6-70ae63fd0d41" absoluteBounds="3.5, 9.25, 2, 2.9247054036458309">
+      <DataClassMoniker Name="/DBNongSanDungHaDataContext/user_order" />
+      <nestedChildShapes>
+        <elementListCompartment Id="84831184-53a8-4b8b-8cdb-d272f8917159" absoluteBounds="3.515, 9.71, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(4.5 : 3.5); (4.5 : 1.53929768880208); (6.25 : 1.53929768880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DBNongSanDungHaDataContext/product/product_user_order_product" />
+      <nodes>
+        <classShapeMoniker Id="26d056d4-9557-43d1-a5d9-8734d656e154" />
+        <classShapeMoniker Id="71eb7cd2-2dba-41a4-a72b-5e94b44ea72c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.75 : 5.25); (1.75 : 4.3749995); (3.5 : 4.3749995)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DBNongSanDungHaDataContext/product_category/product_category_product" />
+      <nodes>
+        <classShapeMoniker Id="05fa0540-b9da-4e59-8b4e-51980f0ad9f0" />
+        <classShapeMoniker Id="26d056d4-9557-43d1-a5d9-8734d656e154" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 6.44314697265625); (3.5 : 6.44314697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DBNongSanDungHaDataContext/product_category/product_category_product_discount_event" />
+      <nodes>
+        <classShapeMoniker Id="05fa0540-b9da-4e59-8b4e-51980f0ad9f0" />
+        <classShapeMoniker Id="a661e5fe-ffe1-47e3-8ea4-d78bd41dd258" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 4.56814697265625); (5.97916666666667 : 4.56814697265625 : JumpStart); (6.14583333333333 : 4.56814697265625 : JumpEnd); (6.25 : 4.56814697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DBNongSanDungHaDataContext/product/product_product_image" />
+      <nodes>
+        <classShapeMoniker Id="26d056d4-9557-43d1-a5d9-8734d656e154" />
+        <classShapeMoniker Id="fa4e6fbd-66ad-41fa-a5f1-6116458a6d9b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 5.4631982421875); (5.875 : 5.8381982421875); (5.875 : 7.48159912109375); (5.97916666666667 : 7.48159912109375 : JumpStart); (6.14583333333333 : 7.48159912109375 : JumpEnd); (6.25 : 7.48159912109375)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DBNongSanDungHaDataContext/product/product_product_review" />
+      <nodes>
+        <classShapeMoniker Id="26d056d4-9557-43d1-a5d9-8734d656e154" />
+        <classShapeMoniker Id="7deb582f-37bf-411c-b46c-efe824c98751" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 9.25153746153846); (3.12653746153846 : 8.875); (5.85320412820513 : 8.875 : JumpStart); (6.0198707948718 : 8.875 : JumpEnd); (7.25 : 8.875); (7.25 : 8.4631982421875)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DBNongSanDungHaDataContext/user_account/user_account_product_review" />
+      <nodes>
+        <classShapeMoniker Id="3878c9bd-0d86-4737-b072-86bdc93073f6" />
+        <classShapeMoniker Id="7deb582f-37bf-411c-b46c-efe824c98751" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 9.31153746153846); (6.0625 : 8.74903746153846); (6.0625 : 1.96519853320312); (6.25 : 1.96519853320312)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DBNongSanDungHaDataContext/user_order/user_order_user_order_product" />
+      <nodes>
+        <classShapeMoniker Id="a0c90fc6-304b-4136-b9b6-70ae63fd0d41" />
+        <classShapeMoniker Id="71eb7cd2-2dba-41a4-a72b-5e94b44ea72c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 10.7443739325921); (3.5 : 10.7443739325921)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DBNongSanDungHaDataContext/user_account/user_account_user_order" />
+      <nodes>
+        <classShapeMoniker Id="3878c9bd-0d86-4737-b072-86bdc93073f6" />
+        <classShapeMoniker Id="a0c90fc6-304b-4136-b9b6-70ae63fd0d41" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

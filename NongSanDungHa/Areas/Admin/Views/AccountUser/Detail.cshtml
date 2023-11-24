@@ -1,0 +1,99 @@
+﻿@model NongSanDungHa.Models.ADO.user_account
+
+@{
+    ViewBag.Title = "Detail";
+    Layout = "~/Areas/Admin/Views/Shared/LayoutAdmin.cshtml";
+}
+
+<h2>Thông tin chi tiết</h2>
+
+<div>
+    <h4>Tài khoản người dùng</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.user_username)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.user_username)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.user_password)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.user_password)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.user_gender)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.user_gender)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.user_email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.user_email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.user_phonenumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.user_phonenumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.user_address)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.user_address)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.user_firstname)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.user_firstname)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.user_lastname)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.user_lastname)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.user_member_tier)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.user_member_tier)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.user_point)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.user_point)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Sửa", "Edit", new { id = Model.user_account_id }) |
+    @Html.ActionLink("Trở về danh sách", "Index")
+</p>

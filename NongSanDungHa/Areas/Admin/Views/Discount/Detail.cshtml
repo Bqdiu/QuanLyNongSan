@@ -1,0 +1,59 @@
+﻿@model NongSanDungHa.Models.ADO.product_discount_event
+
+@{
+    ViewBag.Title = "Detail";
+    Layout = "~/Areas/Admin/Views/Shared/LayoutAdmin.cshtml";
+}
+
+<h2>Thông tin chi tiết</h2>
+
+<div>
+    <h4>Sự kiện khuyến mãi</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.discount_event_image)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.discount_event_image)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.discount_event_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.discount_event_name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.discount_event_description)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.discount_event_description)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.discount_event_DateCreated)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.discount_event_DateCreated)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.product_category_id)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.product_category_id)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.discount_event_id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

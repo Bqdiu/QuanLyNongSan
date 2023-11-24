@@ -1,0 +1,405 @@
+﻿
+@{
+    ViewBag.Title = "ShowDetailProduct";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    <style>
+        .button-cart
+        {
+          display: flex;
+          justify-content:space-between;
+        }
+        .button-cart button
+        {
+            width: 185px;
+            height: 45px;
+        }
+        .icon 
+        {
+            font-size: 23px;
+        }
+        .form1.form-control:focus {
+            border-color: #ced4da;
+            box-shadow:none;
+        }
+
+    </style>
+}
+@model  NongSanDungHa.Models.product
+    @{ 
+        decimal tong = 0;
+        int quantity = 0;
+        var category = ViewBag.NameCategory as product_category;
+        var user = Session["User"] as user_account;
+        var review = ViewBag.Reviews as List<product_review>;
+    }
+@using NongSanDungHa.Models
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-5 mb-5">
+
+            <!-- Carousel wrapper -->
+            <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-mdb-ride="carousel">
+                <!-- Slides -->
+                <div class="carousel-inner mb-5">
+                    @{
+                        foreach (product_image item in ViewBag.Image)
+                        {
+                            <div class="carousel-item active">
+                                <img style="height: 500px" src="@item.product_image_file_name" class="d-block w-100"
+                                     alt="..." />
+                            </div>
+                        }
+
+                    }
+
+                </div>
+                <!-- Slides -->
+                <!-- Controls -->
+                <button class="carousel-control-prev" type="button" data-mdb-target="#carouselExampleIndicators"
+                        data-mdb-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-mdb-target="#carouselExampleIndicators"
+                        data-mdb-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                <!-- Controls -->
+                <!-- Thumbnails -->
+                <div class="carousel-indicators" style="position: relative; top: -50px;margin-bottom: 20px">
+                    @{
+                        int i = 0;
+                        foreach (product_image item in ViewBag.Image)
+                        {
+                            if (i < ViewBag.ImageCount)
+                            {
+                                <button type="button" data-mdb-target="#carouselExampleIndicators" data-mdb-slide-to="@(i.ToString())" class="active"
+                                        aria-current="true" aria-label="Slide " style="width: 100px;">
+                                    <img style="height:100px" class="d-block w-100 img-fluid"
+                                         src="@item.product_image_file_name" />
+                                </button>
+                                i++;
+                            }
+
+                        }
+
+                    }
+
+
+
+                    
+
+
+                </div>
+                <!-- Thumbnails -->
+            </div>
+            <!-- Carousel wrapper -->
+
+
+        </div>
+        <div class="col-md-7">
+            @{
+
+
+                <h3 style="color: #939393; font-size: 20px; font-weight: bold">@Html.ActionLink("Trang Chủ", "Index", "", new { style = "color: #939393" }) / @Html.ActionLink(category.product_category_name, "ShowCategory", new { id = category.product_category_id }, new { style = "color: #939393" }) / @Model.product_name</h3>
+
+
+
+            }
+            <div class="row mt-3">
+
+                <h1 style="color: #28a745;font-size:40px; font-weight: 700">@Model.product_name</h1>
+
+
+            </div>
+            <div class="row mt-3 mb-3">
+                <hr />
+            </div>
+            <div class="row mt-3 mb-3" style="font-size: 22px">
+                <p class="mb-2">Bảng giá Hồ Chí Minh</p>
+                <form method="post" action="~/Cart/AddToCart">
+                    <table class="table" style="font-size: 20px">
+                        <thead>
+                            <tr>
+                                <th scope="col">Phân Loại</th>
+                                <th scope="col">Giá</th>
+                                <th scope="col">Số Lượng</th>
+
+                            </tr>
+                        </thead>
+
+                        <tbody>
+
+                            <tr style="border-color:white; border-style:none">
+                                <th scope="row">1 kg</th>
+                                <input type="hidden" name="product_id" value="@Model.product_id" />
+                                <td>@Model.product_price đ</td>
+                                <td>
+                                    <div class="btn-group" style="width: 30%" role="group" aria-label="Basic example">
+                                        <button type="button" class="btn btnn decrease btn-outline-success ">-</button>
+
+                                        <input id="value" name="Quantity" style="width:50px" class="form-control btn-outline-success" type="text" value="0" aria-label="default input example">
+                                        @*<span id="value">0</span>*@
+                                        <button type="button" class="btn btnn increase btn-outline-success">+</button>
+                                    </div>
+                                </td>
+
+                            </tr>
+
+
+
+                        </tbody>
+
+
+                    </table>
+                    <div class="button-cart">
+
+                        <button id="addToCart" type="submit" class="btn btn-danger">Thêm vào giỏ hàng</button>
+
+
+                    </div>
+                </form>
+
+
+            </div>
+            <div class="row mt-3 mb-3">
+                <hr />
+            </div>
+            <div class="row mt-3 mb-3">
+                <div class="col-md-2" style="font-weight:bold;font-size:18px">
+                    Danh mục: 
+                </div>
+                <div class="col-md-10">
+                    @Html.ActionLink(category.product_category_name, "ShowCategory", new { id = category.product_category_id }, new { @style = "    border: 1px solid #dee2e6;   padding: 1px 10px;   display: inline-block;  margin: 4px 5px;" })
+                    
+                </div>
+            </div>
+
+            <div class="row mt-3 mb-3">
+                <hr />
+                <div class="container d-flex w-25" style="justify-content:space-between;margin:0px">
+                    <a href="#"><i style="color: #4267b2 " class="fab fa-facebook icon"></i></a>
+                    <a href="#"><i style="color: #52a7e7 " class="fab fa-twitter-square icon"></i></a>
+                    <a href="#"><i style="color: #ec6b49" class="fas fa-envelope icon"></i></a>
+                    <a href="#"><i style="color: #55a846" class="fas fa-print icon"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-9">
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a class="nav-link active" data-bs-toggle="tab" href="#home">Thông tin thực phẩm</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="tab" href="#menu1">Bình luận</a>
+                </li>
+               
+            </ul>
+
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div class="tab-pane container active" id="home">
+                    @Html.Raw(@Model.product_description)
+                </div>
+                <div class="tab-pane container fade" id="menu1">
+                    <div class="row mt-3">
+
+                    <div class="row mb-3">
+                        <div class="col-md-12" style="font-weight:bold">
+                            @review.Count() bình luận
+                        </div>
+                        
+                    </div>
+                    <div class="row mb-5">
+                        @{
+                            foreach (var item in review)
+                            {
+                               
+                                <div class="col-md-12">
+                                    
+                                        <div class="row mb-3">
+                                            <div class="col-md-1">
+                                                <img src="https://img.freepik.com/fotos-premium/ilustracao-em-vetor-de-personagem-de-desenho-animado-de-legumes-engracados-de-alface-kawaii_780593-2242.jpg?size=338&ext=jpg&ga=GA1.1.386372595.1698105600&semt=ais" style="width:50px;height:50px;border-radius:50px" />
+                                            </div>
+                                            <div class="col-md-11 ">
+                                                <div class="row">
+                                                    <div class="col-md-3">
+                                                        <p style="margin:auto;font-weight:500">@item.review_owner</p>
+                                                    </div>
+                                                    <div class="col-md-9">
+                                                        <p style="margin:auto;font-size:12px">@item.review_time</p>
+                                                    </div>
+                                                    
+                                                </div>
+                                                
+                                                <p>@item.product_review_content</p>
+                                              
+                                            </div>
+                                            
+                                            
+                                        </div>
+                                  
+                                    
+                                </div>
+                            }
+                        }
+
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="https://img.freepik.com/fotos-premium/ilustracao-em-vetor-de-personagem-de-desenho-animado-de-legumes-engracados-de-alface-kawaii_780593-2242.jpg?size=338&ext=jpg&ga=GA1.1.386372595.1698105600&semt=ais" style="width:100px;height:100px;border-radius:50px"/>
+                        </div>
+                        <div class="col-md-10">
+                            @{
+                                if (user != null)
+                                {
+                                    <form class="row" method="post" action="/Home/Comment">
+                                        <input name="UserID" type="hidden" value="@user.user_account_id" />
+                                        <input name="ProductID" type="hidden" value="@Model.product_id" />
+                                        <textarea autocomplete="off" id="reviews" name="comment-text" class="form1 form-control w-100" id="exampleFormControlTextarea1" placeholder="Viết bình luận..." rows="5" style="margin-left:-20px;transition:none"></textarea>
+                                        <div  class="span-comment col-md-12" style="background-color: #f5f6f7; border: 1px solid #ced4da;border-top:0px; width: 100%; height: 47px; margin-left: -20px; text-align: right">
+                                            <button  disabled id="submitButton" type="submit" class="btn " style="margin-top: 3px; background-color: #4267b2; border-color: #4267b2;color:white ">Đăng</button>
+                                        </div>
+                                    </form>
+                                    
+                                }
+                                else
+                                {
+                                    <div class="row">
+                                        <div class="alert alert-primary" role="alert" style="position: relative; top: 15px;">
+                                            Vui lòng <a href="~/User/Login" style="font-weight:bold">Đăng nhập</a> để bình luận.
+                                        </div>
+                                    </div>
+                                   
+                                }
+                                <script>
+                                    const textArea1 = document.getElementById("reviews");
+                                    const submitBtn = document.getElementById("submitButton");
+                                    textArea1.addEventListener("keyup", function (e) {
+                                        const value = e.currentTarget.value;
+                                        if (value == "")
+                                            submitBtn.disabled = true;
+                                        else
+                                            submitBtn.disabled = false;
+                                    })
+                                </script>
+
+                            }
+
+
+
+
+                        </div>
+                       
+                        
+                    </div>
+                        
+
+
+
+                    </div>
+                </div>
+              
+            </div>
+        
+
+        </div>
+        <div class="col-md-3">
+            <div class="row" style="margin:10px">
+                <div class="col-md-12">
+                    <div class="card" style="width: 18rem; background-color: #52a851; border-color: #52a851; color: white;font-weight:bold">
+
+                        <div class="card-body">
+                            <p class="card-text">THAM GIA NHÓM ZALO CẬP NHẬT GIÁ SỈ HÀNG NGÀY</p>
+                        </div>
+                        <img src="https://admin.nongsandungha.com/wp-content/uploads/2022/07/18df98c649718a2fd360.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin:10px">
+                <div class="col-md-12">
+                    <div class="card" style="width: 18rem;">
+
+                        <div class="card-body" style=" background-color: #52a851; border-color: #52a851; color: white; font-weight: bold">
+                            <p class="card-text">DŨNG HÀ TRÊN ZALO</p>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text" style="text-align:center">Hãy theo dõi ZALO DŨNG HÀ để nhận mã khuyến mại hàng tuần</p>
+                        </div>
+                        <img src="https://admin.nongsandungha.com/wp-content/uploads/2022/07/qr-code-zalo.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin:10px">
+                <div class="col-md-12">
+                    <div class="card" style="width: 18rem;">
+
+                        <div class="card-body" style="background-color: #52a851; border-color: white; color: white; font-weight: bold">
+                            <p class="card-text">THAM GIA NHÓM ZALO CẬP NHẬT GIÁ SỈ HÀNG NGÀY</p>
+                        </div>
+
+                        <img src="https://admin.nongsandungha.com/wp-content/uploads/2022/07/18df98c649718a2fd360.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin:10px">
+                <p style="color: #cd362c;text-transform:uppercase;font-weight:bold;margin-top:20px">Tin tức mới nhất</p>
+                <div class="col-md-12">
+                    @{
+                        foreach (var item in ViewBag.DiscountEvent as List<NongSanDungHa.Models.product_discount_event>)
+                        {
+                            <div class="card" style="width: 18rem; border: 0px; ">
+                                <img src="@item.discount_event_image" class="card-img-top" alt="...">
+                                <div class="card-body" style="color: #627f9a; font-weight: bold">
+                                    <p class="card-text">@item.discount_event_name</p>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">@item.discount_event_description</p>
+                                </div>
+
+                            </div>
+                       
+                            <hr style="color: #52a851; margin-left:25px" />
+
+                        }
+                    }
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    let count = 0;
+    const value = document.getElementById("value");
+    const btns = document.querySelectorAll(".btnn");
+    btns.forEach(function (btn) {
+        btn.addEventListener("click", function (e) {
+            const style = e.currentTarget.classList;
+            if (style.contains("decrease")) {
+                if(count>0)
+                count-=0.5;
+            }
+            else
+                count+=0.5;
+
+            value.value = count;
+           
+        })
+    })
+
+    const btnAddToCart = document.getElementById("addToCart");
+    btnAddToCart.addEventListener("click", function (e) {
+        if (value.value == 0) {
+            e.preventDefault();
+            alert("Vui lòng chọn số kg từ 0.5kg trở lên");
+        }
+           
+    })
+   
+    
+</script>

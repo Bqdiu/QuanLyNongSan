@@ -1,0 +1,47 @@
+﻿@model NongSanDungHa.Models.ADO.user_order_product
+
+@{
+    ViewBag.Title = "Detail";
+    Layout = "~/Areas/Admin/Views/Shared/LayoutAdmin.cshtml";
+}
+
+<h2>Chi tiết</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.user_order_id)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.user_order_id)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.product_id)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.product_id)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.product_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.product_name)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.order_product_amount)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.order_product_amount)
+        </dd>
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Sửa", "Edit", new { id = Model.user_order_id, product_id = Model.product_id }) |
+    @Html.ActionLink("Trở về danh sách", "Index")
+</p>

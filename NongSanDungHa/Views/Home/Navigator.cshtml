@@ -1,0 +1,21 @@
+﻿@using NongSanDungHa.Models
+@model List<product_category>
+<style>
+    .dropdown-item:hover
+    {
+        background-color: red;
+    }
+</style>
+<ul class="dropdown-menu justify-content-center" style="background-color: #63a507; width: 400px; font-size: 20px">
+    @{
+
+        foreach (product_category item in Model)
+        {
+
+            <li>@Html.ActionLink(item.product_category_name, "ShowCategory", new { id = item.product_category_id }, new { @class = "dropdown-item", @style="color: white; border-bottom: 1px inset white; width:90%;margin-left: 20px" })</li>
+           
+        }
+    }
+
+
+</ul>

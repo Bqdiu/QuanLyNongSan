@@ -1,0 +1,101 @@
+﻿@model IEnumerable<NongSanDungHa.Models.ADO.user_order>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/LayoutAdmin.cshtml";
+}
+
+<h2>Khách hàng Order</h2>
+
+<p>
+    @Html.ActionLink("Thêm mới", "CreateNew")
+</p>
+<p>
+
+    Lượt review: @ViewBag.TotalUserOrder
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.user_order_id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.user_account_id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.order_time)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.user_order_buyer_name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.user_order_address)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.user_order_email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.user_order_phonenumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.is_processed)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.is_delivered)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.payments)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.order_total_value)
+        </th>
+
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.user_order_id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.user_account_id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.order_time)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.user_order_buyer_name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.user_order_address)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.user_order_email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.user_order_phonenumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.is_processed)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.is_delivered)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.payments)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.order_total_value)
+            </td>
+
+            <td>
+               
+                @Html.ActionLink("Chi tiết", "Detail", new { id = item.user_order_id }) |
+                @Html.ActionLink("Xóa", "Delete", new { id = item.user_order_id })
+            </td>
+        </tr>
+    }
+
+</table>

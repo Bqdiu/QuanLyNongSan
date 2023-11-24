@@ -1,0 +1,137 @@
+﻿
+@{
+    ViewBag.Title = "ConfirmPayment";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    .control-label {
+        color: inherit
+    }
+
+    .input_radio {
+        position: absolute;
+    }
+
+    .input_radio_label {
+        position: relative;
+        top: -7px;
+        left: 20px;
+    }
+</style>
+@model NongSanDungHa.Models.ADO.user_order
+@{
+    NongSanDungHa.Models.user_account user = Session["User"] as NongSanDungHa.Models.user_account;
+}
+@{
+    if (user != null)
+    {
+        <div class="container mt-3" style="justify-content: center; align-items: center; display: flex; flex-direction: column;">
+            <div class="row" style="width: 55%">
+                <div class="col-md-12 " style="border: 1px solid inset;border-radius: 10px; box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; ">
+                    <h2 style="text-align:center;color: #28a745; padding: 5px; text-shadow: 1px 1px 2px silver; ">Xác nhận thanh toán</h2>
+                    <form method="post" action="~/Cart/Payment" class=" mb-3 row" style="justify-content:left;display:flex;flex-direction:column;align-items:start;padding: 10px">
+                        <p style="font-size:24px;color: inherit">Thông tin người nhận:</p>
+                        <input type="hidden" name="UserID" value="@user.user_account_id" />
+                        <div class="mb-3">
+                            @Html.LabelFor(model => model.user_order_buyer_name, htmlAttributes: new { @class = "control-label" })
+
+                            @Html.TextBoxFor(model => model.user_order_buyer_name, new { @class = "form-control col-md-12" })
+                            @Html.ValidationMessageFor(model => model.user_order_buyer_name, "", new { @class = "text-danger" })
+                        </div>
+                        <div class="mb-3">
+                            @Html.LabelFor(model => model.user_order_address, htmlAttributes: new { @class = "control-label " })
+
+                            @Html.TextBoxFor(model => model.user_order_address, new { @class = "form-control col-md-12" })
+                            @Html.ValidationMessageFor(model => model.user_order_address, "", new { @class = "text-danger" })
+                        </div>
+                        <div class="mb-3">
+                            @Html.LabelFor(model => model.user_order_email, htmlAttributes: new { @class = "control-label" })
+
+                            @Html.TextBoxFor(model => model.user_order_email, new { @class = "form-control col-md-12", @type = "email" })
+                            @Html.ValidationMessageFor(model => model.user_order_email, "", new { @class = "text-danger" })
+                        </div>
+                        <div class="mb-3">
+                            @Html.LabelFor(model => model.user_order_phonenumber, htmlAttributes: new { @class = "control-label" })
+
+                            @Html.TextBoxFor(model => model.user_order_phonenumber, new { @class = "form-control col-md-12", @type = "tel" })
+                            @Html.ValidationMessageFor(model => model.user_order_phonenumber, "", new { @class = "text-danger" })
+                        </div>
+                        <div class="mb-3">
+                            <fieldset>
+                                <legend>Phương thức thanh toán:</legend>
+
+                                <div>
+                                    <input class="input_radio" type="radio" name="payments" value="COD" checked />
+                                    <label class="input_radio_label" for="huey">Thanh toán khi nhận hàng (COD)<br /><i>Nhân viên chúng tôi sẽ liên hệ với quý khách trong thời gian sớm nhất.</i></label>
+                                </div>
+
+                                <div>
+                                    <input class="input_radio" type="radio" name="payments" value="Banking" />
+                                    <label class="input_radio_label" for="dewey">Chuyển khoản Ngân Hàng<br /><i>Áp dụng cho khách hàng muốn chuyển khoản trực tiếp qua ngân hàng.</i></label>
+                                </div>
+
+                                <div>
+                                    <input class="input_radio" type="radio" name="payments" value="Go to Store" />
+
+                                    <label class="input_radio_label" for="louie">Đến cửa hàng <br /><i>Nhân viên sẽ giữ hàng của bạn đã đặt</i></label>
+
+                                </div>
+                            </fieldset>
+                        </div>
+                        <p style="font-size:24px;color: inherit">Chính sách:</p>
+                        <ul class="mb-3" style="justify-content:space-around;list-style-type:none;display:flex">
+
+
+                            <li><a href="#">Chính sách giao hàng</a></li>
+                            <li><a href="#">Chính sách đổi trả</a></li>
+                            <li><a href="#">Chính sách bảo mật</a></li>
+                            <li><a href="#">Chính sách chung</a></li>
+
+
+
+
+
+
+                        </ul>
+                        <div class="mb-3 form-check" style="justify-content: center; align-items: center; display: flex;">
+                            <input type="checkbox" class="form-check-input" name="accept" value="true" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Tôi dồng ý với các chính sách trên</label>
+                        </div>
+
+                        <div class="mb-3">
+                            @{
+                                if (!string.IsNullOrEmpty(ViewBag.Accept) && ViewBag.kt != 0)
+                                {
+                                    <div class="alert alert-danger" role="alert">
+                                        @ViewBag.Accept
+                                    </div>
+                                }
+                            }
+
+                        </div>
+                        <div class="mt-1 mb-2">
+                            <button type="submit" class=" btn btn-success col-md-12">Tiến hành thanh toán</button>
+
+                        </div>
+
+
+
+
+
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-danger" role="alert">
+            không tìm thấy trang
+        </div>
+    }
+
+}
+
+

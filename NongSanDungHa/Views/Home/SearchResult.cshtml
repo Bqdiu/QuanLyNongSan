@@ -1,0 +1,37 @@
+﻿
+@{
+    ViewBag.Title = "SearchResult";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model List<NongSanDungHa.Models.product>
+@using NongSanDungHa.Models
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-12 mb-4">
+            <h1 style="color: #28a745">Bạn tìm Sản Phẩm "@ViewBag.SearchKey"</h1>
+        </div>
+
+    </div>
+    <div class="row">
+        @{
+            foreach (product item in Model)
+            {
+                <div class="col-md-3">
+                    <div class="card mb-3" style="width: 19rem">
+                        <img style="height: 265px" src="@item.product_thumbnail_image" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center" style="height:48px">@Html.ActionLink(item.product_name, "ShowDetailProduct", new { id = item.product_id, product_category_id = item.product_category_id })</h5>
+                            <p class="card-text text-center" style="font-weight: 500">HCM: @item.product_price</p>
+                            @Html.ActionLink("Mua Ngay", "ShowDetailProduct", new { id = item.product_id, product_category_id = item.product_category_id }, new { @class = "btn btn-primary", style = "width: 100%; background-color: #52a851; border-color: white" })
+
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+
+    </div>
+
+
+</div>
+

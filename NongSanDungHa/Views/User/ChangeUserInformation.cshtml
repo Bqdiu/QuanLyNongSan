@@ -1,0 +1,93 @@
+﻿@model NongSanDungHa.Models.ADO.user_account
+
+@{
+    ViewBag.Title = "ChangeUserInformation";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-3">
+   
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h2>Cập nhật thông tin</h2>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.user_account_id)
+        @Html.HiddenFor(model => model.user_password)
+        @Html.HiddenFor(model => model.user_member_tier)
+        @Html.HiddenFor(model => model.user_point)
+        @Html.HiddenFor(model => model.user_username)
+     <div class="form-group">
+        <label class="control-label col-md-2">Tên</label>
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.user_firstname, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.user_firstname, "", new { @class = "text-danger" })
+        </div>
+     </div>
+
+    <div class="form-group">
+        <label class="control-label col-md-2">Họ</label>
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.user_lastname, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.user_lastname, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Giới Tính</label>
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.user_gender, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.user_gender, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Email</label>
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.user_email, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.user_email, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">SĐT</label>
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.user_phonenumber, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.user_phonenumber, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Địa Chỉ</label>
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.user_address, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.user_address, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+    
+
+      
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Cập nhật thông tin" class="btn btn-success" />
+                @Html.ActionLink("Trở về", "UserInformation",new {Controller ="User", UserID = Model.user_account_id },new {@class = "btn btn-primary"})
+            </div>
+
+        </div>
+    </div>
+
+
+    }
+
+    <div>
+       
+    </div>
+</div>
+
+

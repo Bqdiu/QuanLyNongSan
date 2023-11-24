@@ -1,0 +1,91 @@
+﻿@model IEnumerable<NongSanDungHa.Models.ADO.user_account>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/LayoutAdmin.cshtml";
+}
+
+<h2>Tài khoản Người dùng</h2>
+
+<p>
+    @Html.ActionLink("Thêm mới", "CreateNew")
+</p>
+<p>
+    Tổng số tài khoản: @ViewBag.ToTalUser
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.user_username)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.user_password)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.user_gender)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.user_email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.user_phonenumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.user_address)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.user_firstname)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.user_lastname)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.user_member_tier)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.user_point)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.user_username)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.user_password)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.user_gender)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.user_email)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.user_phonenumber)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.user_address)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.user_firstname)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.user_lastname)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.user_member_tier)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.user_point)
+        </td>
+        <td>
+            @Html.ActionLink("Sửa", "Edit", new { id=item.user_account_id }) |
+            @Html.ActionLink("Chi tiết", "Detail", new { id=item.user_account_id }) |
+            @Html.ActionLink("Xóa", "Delete", new { id=item.user_account_id })
+        </td>
+    </tr>
+}
+
+</table>

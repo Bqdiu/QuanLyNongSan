@@ -1,0 +1,84 @@
+﻿@model NongSanDungHa.Models.ADO.user_order
+
+@{
+    ViewBag.Title = "Detail";
+    Layout = "~/Areas/Admin/Views/Shared/LayoutAdmin.cshtml";
+}
+
+<h2>Detail</h2>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.user_order_id)
+        </th>
+        <td>
+            @Html.DisplayFor(model => model.user_order_id)
+        </td>
+        <th>
+            @Html.DisplayNameFor(model => model.user_account_id)
+        </th>
+        <td>
+            @Html.DisplayFor(model => model.user_account_id)
+        </td>
+        <th>
+            @Html.DisplayNameFor(model => model.order_time)
+        </th>
+        <td>
+            @Html.DisplayFor(model => model.order_time)
+        </td>
+        <th>
+            @Html.DisplayNameFor(model => model.user_order_buyer_name)
+        </th>
+        <td>
+            @Html.DisplayFor(model => model.user_order_buyer_name)
+        </td>
+        <th>
+            @Html.DisplayNameFor(model => model.user_order_address)
+        </th>
+        <td>
+            @Html.DisplayFor(model => model.user_order_address)
+        </td>
+        <th>
+            @Html.DisplayNameFor(model => model.user_order_email)
+        </th>
+        <td>
+            @Html.DisplayFor(model => model.user_order_email)
+        </td>
+        <th>
+            @Html.DisplayNameFor(model => model.user_order_phonenumber)
+        </th>
+        <td>
+            @Html.DisplayFor(model => model.user_order_phonenumber)
+        </td>
+        <th>
+            @Html.DisplayNameFor(model => model.is_processed)
+        </th>
+
+        <td>
+            @Html.DisplayFor(model => model.is_processed)
+        </td>
+        <th>
+            @Html.DisplayNameFor(model => model.is_delivered)
+        </th>
+        <td>
+            @Html.DisplayFor(model => model.is_delivered)
+        </td>
+        <th>
+            @Html.DisplayNameFor(model => model.payments)
+        </th>
+        <td>
+            @Html.DisplayFor(model => model.payments)
+        </td>
+        <th>
+            @Html.DisplayNameFor(model => model.order_total_value)
+        </th>
+        <td>
+            @Html.DisplayFor(model => model.order_total_value)
+        </td>
+
+        <th></th>
+    </tr>
+    <p>
+        
+        @Html.ActionLink("Trở về danh sách", "Index")
+    </p>

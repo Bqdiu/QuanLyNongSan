@@ -1,0 +1,49 @@
+﻿@model IEnumerable<NongSanDungHa.Models.ADO.product_category>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/LayoutAdmin.cshtml";
+}
+
+<h2>Loại hàng</h2>
+
+<p>
+    @Html.ActionLink("Thêm mới", "CreateNew")
+</p>
+<p>
+    Tổng loại mặt hàng: @ViewBag.TotalCategory
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.product_category_id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.product_category_name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.product_category_description)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.product_category_id)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.product_category_name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.product_category_description)
+        </td>
+        <td>
+            @Html.ActionLink("Sửa", "Edit", new { id = item.product_category_id }) |
+            @Html.ActionLink("Chi tiết", "Detail", new { id = item.product_category_id }) |
+            @Html.ActionLink("Xóa", "Delete", new { id = item.product_category_id })
+        </td>
+    </tr>
+}
+
+</table>

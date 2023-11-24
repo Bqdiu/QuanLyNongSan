@@ -1,0 +1,35 @@
+﻿@model NongSanDungHa.Models.ADO.admin_account
+
+@{
+    ViewBag.Title = "Detail";
+    Layout = "~/Areas/Admin/Views/Shared/LayoutAdmin.cshtml";
+}
+
+<h2>Thông tin chi tiết</h2>
+
+<div>
+    <h4>tài khoản quản trị viên</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.admin_username)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.admin_username)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.admin_password)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.admin_password)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Sửa", "Edit", new { id = Model.admin_account_id }) |
+    @Html.ActionLink("Trở về danh sách", "Index")
+</p>

@@ -1,0 +1,56 @@
+﻿
+@{
+    ViewBag.Title = "DetailCart";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model List<NongSanDungHa.Models.user_order>
+
+<div class="container mt-4">
+    <h2>Kiểm Tra Đơn Hàng</h2>
+    <div class="row mt-4">
+        <div class="col-md-12">
+            <table class="table ">
+                <thead>
+                    <tr class="table-success">
+                        <th scope="col">ID đơn</th>
+                        <th scope="col">Tên Khách hàng</th>
+                        <th scope="col">SĐT</th>
+                        <th scope="col">Địa chỉ</th>
+                        <th scope="col">Email</th>
+                        <th scope="col">Tình trạng</th>
+                        <th scope="col">Vận chuyển</th>
+                        <th scope="col">Thanh toán</th>
+                        <th scope="col">Tổng Tiền</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @{
+                        foreach (var item in Model)
+                        {
+
+                            <tr>
+
+                                <th scope="row"><a href=" @Url.Action("DetailCartItems","Cart",new {OrderID = item.user_order_id})">@item.user_order_id</a></th>
+                                <td>@item.user_order_buyer_name</td>
+                                <td>@item.user_order_phonenumber</td>
+                                <td>@item.user_order_address</td>
+                                <td>@item.user_order_email</td>
+                                <td>@item.is_processed</td>
+                                <td>@item.is_delivered</td>
+                                <td>@item.payments</td>
+                                <td>@string.Format("{0:0,0.000}", item.order_total_value) đ</td>
+
+                            </tr>
+
+
+                        }
+                    }
+
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+    
+</div>
+

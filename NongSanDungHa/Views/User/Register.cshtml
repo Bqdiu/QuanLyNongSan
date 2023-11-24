@@ -1,0 +1,167 @@
+﻿
+@{
+    ViewBag.Title = "Register";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    <style>
+
+        .nav-pills .nav-link.active {
+            background-color: #52a851;
+        }
+
+        .green {
+            color: #52a851;
+        }
+
+        .form-check-input[type=checkbox]:checked {
+            background: #52a851;
+        }
+
+        .mgt {
+            margin-top: 50px;
+        }
+
+        .error {
+            color: red;
+            font-size: 15px;
+            margin-bottom: 5px;
+            padding: 5px;
+        }
+    </style>
+}
+
+@model NongSanDungHa.Models.ADO.user_account
+
+
+
+<div class="row justify-content-center mgt">
+    <div class="col-xl-10 col-lg-12 col-md-9">
+        <div class="container w-50 card o-hidden border-0 shadow-lg" style="border: 1px solid black">
+            <ul class="nav nav-pills nav-justified mb-3" id="ex1" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="tab-login" href="/User/Login" role="tab"
+                       aria-controls="pills-login" aria-selected="true">Login</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link active" id="tab-register" href="/User/Register" role="tab"
+                       aria-controls="pills-register" aria-selected="false">Register</a>
+                </li>
+            </ul>
+            <!-- Pills navs -->
+            <!-- Pills content -->
+
+
+
+            <form method="post" action="~/User/Register">
+                <div class="text-center mb-3">
+                    <p>Sign up with:</p>
+                    <button type="button" class="btn btn-link btn-floating mx-1">
+                        <i class="fab fa-facebook-f green"></i>
+                    </button>
+
+                    <button type="button" class="btn btn-link btn-floating mx-1">
+                        <i class="fab fa-google green"></i>
+                    </button>
+
+                    <button type="button" class="btn btn-link btn-floating mx-1">
+                        <i class="fab fa-twitter green"></i>
+                    </button>
+
+                    <button type="button" class="btn btn-link btn-floating mx-1">
+                        <i class="fab fa-github green"></i>
+                    </button>
+                </div>
+
+                <p class="text-center">or:</p>
+                @Html.ValidationSummary(true)
+                <!-- Name input -->
+                <div class="form-outline mb-4">
+                    @Html.TextBoxFor(model => model.user_firstname, "", new { @class = "form-control" })
+                    <label class="form-label" for="registerName">First Name</label>
+                    <div class="error"> @Html.ValidationMessageFor(temp => temp.user_firstname)</div>
+                </div>
+                <div class="form-outline mb-4">
+                    @Html.TextBoxFor(model => model.user_lastname, "", new { @class = "form-control" })
+                    <label class="form-label" for="registerName">Last Name</label>
+                    <div class="error" @Html.ValidationMessageFor(temp => temp.user_lastname)</div>
+                </div>
+
+                <div class="form-outline mb-4">
+                    @Html.TextBoxFor(model => model.user_gender, "", new { @class = "form-control" })
+                    <label class="form-label" for="registerName">Gender</label>
+                    <div class="error"> @Html.ValidationMessageFor(temp => temp.user_gender)</div>
+                </div>
+                <div class="form-outline mb-4">
+                    @Html.TextBoxFor(model => model.user_address, "", new { @class = "form-control" })
+                    <label class="form-label" for="registerName">Address</label>
+                    <div class="error"> @Html.ValidationMessageFor(temp => temp.user_address)</div>
+                </div>
+                <div class="form-outline mb-4">
+                    @Html.TextBoxFor(model => model.user_phonenumber, "", new { @class = "form-control" })
+                    <label class="form-label" for="registerName">Number Phone</label>
+                    <div class="error"> @Html.ValidationMessageFor(temp => temp.user_phonenumber)</div>
+                </div>
+
+                <!-- Username input -->
+                <div class="form-outline mb-4">
+                    @Html.TextBoxFor(model => model.user_username, "", new { @class = "form-control" })
+                    <label class="form-label" for="registerUsername">Username</label>
+                    <div class="error"> @Html.ValidationMessageFor(temp => temp.user_username)</div>
+                </div>
+
+
+                <!-- Email input -->
+                <div class="form-outline mb-4">
+                    @Html.TextBoxFor(model => model.user_email, "", new { @class = "form-control" })
+                    <label class="form-label" for="registerEmail">Email</label>
+                    <div class="error">@Html.ValidationMessageFor(temp => temp.user_email)</div>
+                </div>
+
+                <!-- Password input -->
+                <div class="form-outline mb-4">
+                    @Html.PasswordFor(model => model.user_password, new { @class = "form-control" })
+                    <label class="form-label" for="registerPassword">Password</label>
+                    <div class="error"> @Html.ValidationMessageFor(temp => temp.user_password)</div>
+                </div>
+
+
+                <!-- Repeat Password input -->
+                <div class="form-outline mb-4">
+                    @Html.PasswordFor(model => model.RetypePassword, new { @class = "form-control" })
+                    <label class="form-label" for="registerRepeatPassword">Repeat password</label>
+                    <div class="error"> @Html.ValidationMessageFor(temp => temp.RetypePassword)</div>
+                </div>
+
+
+                <!-- Checkbox -->
+                <div class="form-check d-flex justify-content-center mb-4">
+                    <input class="form-check-input me-2" type="checkbox" value="" id="registerCheck" checked
+                           aria-describedby="registerCheckHelpText" />
+                    <label class="form-check-label" for="registerCheck">
+                        I have read and agree to the terms
+                    </label>
+                </div>
+
+                @{
+                    if (!string.IsNullOrEmpty(ViewBag.message) && ViewBag.kt == 0)
+                    {
+                        <div class="alert alert-success" role="alert">
+                            @ViewBag.mesage
+                        </div>
+                    }
+                    else if (!string.IsNullOrEmpty(ViewBag.message) && ViewBag.kt != 0)
+                    {
+                        <div class="alert alert-danger" role="alert">
+                            @ViewBag.message
+                        </div>
+                    }
+                }
+
+                <!-- Submit button -->
+                <button type="submit" class="btn btn-success btn-block mb-3">Sign up</button>
+            </form>
+        </div>
+
+        <!-- Pills content -->
+
+    </div>
+</div>

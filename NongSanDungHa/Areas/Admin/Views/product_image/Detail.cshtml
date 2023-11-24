@@ -1,0 +1,43 @@
+﻿@model NongSanDungHa.Models.ADO.product_image
+
+@{
+    ViewBag.Title = "Detail";
+    Layout = "~/Areas/Admin/Views/Shared/LayoutAdmin.cshtml";
+}
+
+<h2>Chi tiết sản phẩm</h2>
+
+<div>
+    <h4>Hình ảnh sản phẩm</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.product_image_id)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.product_image_id)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.product_id)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.product_id)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.product_image_file_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.product_image_file_name)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Sửa", "Edit", new { id = Model.product_image_id}) |
+    @Html.ActionLink("Trở về danh sách", "Index")
+</p>

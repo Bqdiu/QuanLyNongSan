@@ -1,0 +1,287 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link href="~/accset/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+          rel="stylesheet">
+
+    <!-- Custom styles for this template-->
+    <link href="~/accset/css/sb-admin-2.min.css" rel="stylesheet" />
+    <style>
+       @@media screen and (min-width: 768px)
+       {
+        .sidebar {
+            width: 17rem !important;
+        }
+       }
+        .card {
+            background-color: #fff;
+            border-radius: 10px;
+            border: none;
+            position: relative;
+            margin-bottom: 30px;
+            box-shadow: 0 0.46875rem 2.1875rem rgba(90,97,105,0.1), 0 0.9375rem 1.40625rem rgba(90,97,105,0.1), 0 0.25rem 0.53125rem rgba(90,97,105,0.12), 0 0.125rem 0.1875rem rgba(90,97,105,0.1);
+        }
+
+        .l-bg-cherry {
+            background: linear-gradient(to right, #493240, #f09) !important;
+            color: #fff;
+        }
+
+        .l-bg-blue-dark {
+            background: linear-gradient(to right, #373b44, #4286f4) !important;
+            color: #fff;
+        }
+
+        .l-bg-green-dark {
+            background: linear-gradient(to right, #0a504a, #38ef7d) !important;
+            color: #fff;
+        }
+
+        .l-bg-orange-dark {
+            background: linear-gradient(to right, #a86008, #ffba56) !important;
+            color: #fff;
+        }
+
+        .card .card-statistic-3 .card-icon-large .fas, .card .card-statistic-3 .card-icon-large .far, .card .card-statistic-3 .card-icon-large .fab, .card .card-statistic-3 .card-icon-large .fal {
+            font-size: 110px;
+        }
+
+        .card .card-statistic-3 .card-icon {
+            text-align: center;
+            line-height: 50px;
+            margin-left: 15px;
+            color: #000;
+            position: absolute;
+            right: -5px;
+            top: 20px;
+            opacity: 0.1;
+        }
+
+        .l-bg-cyan {
+            background: linear-gradient(135deg, #289cf5, #84c0ec) !important;
+            color: #fff;
+        }
+
+        .l-bg-green {
+            background: linear-gradient(135deg, #23bdb8 0%, #43e794 100%) !important;
+            color: #fff;
+        }
+
+        .l-bg-orange {
+            background: linear-gradient(to right, #f9900e, #ffba56) !important;
+            color: #fff;
+        }
+
+        .l-bg-cyan {
+            background: linear-gradient(135deg, #289cf5, #84c0ec) !important;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    @{
+        NongSanDungHa.Models.admin_account user = Session["User"] as NongSanDungHa.Models.admin_account;
+    }
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <ul class="navbar-nav  sidebar sidebar-dark accordion" style="background-color: #52a851" id="accordionSidebar">
+
+            <!-- Sidebar - Brand -->
+            <a href="~/Admin/Dashboard/Index"><img src="https://nongsandungha.com/assets/img/logo.jpg" style="background: white" /></a>
+
+
+            <!-- Divider -->
+            <hr class="sidebar-divider my-0">
+
+            <!-- Nav Item - Dashboard -->
+            <!-- Divider -->
+            <!-- Nav Item - Pages Collapse Menu -->
+            <li class="nav-item">
+
+                @Html.ActionLink("Sản Phẩm", "Index", "product", new { area = "Admin" }, new { @class = "nav-link collapsed" })
+            </li>
+            <li class="nav-item">
+                @Html.ActionLink("Hình ảnh sản phẩm", "Index", "product_image", new { area = "Admin" }, new { @class = "nav-link collapsed" })
+            </li>
+            <li class="nav-item">
+                @Html.ActionLink("Loại hàng", "Index", "Category", new { area = "Admin" }, new { @class = "nav-link collapsed" })
+            </li>
+            <li class="nav-item">
+                @Html.ActionLink("Đơn Hàng", "Index", "user_order_product", new { area = "Admin" }, new { @class = "nav-link collapsed" })
+            </li>
+            <li class="nav-item">
+                @Html.ActionLink("Sự kiện khuyến mãi", "Index", "Discount", new { area = "Admin" }, new { @class = "nav-link collapsed" })
+
+            </li>
+            <li class="nav-item">
+                @Html.ActionLink("Đánh giá người dùng", "Index", "product_review", new { area = "Admin" }, new { @class = "nav-link collapsed" })
+            </li>
+            <li class="nav-item">
+                @Html.ActionLink("Khách hàng Order", "Index", "user_order", new { area = "Admin" }, new { @class = "nav-link collapsed" })
+            </li>
+            <li class="nav-item">
+                @Html.ActionLink("Tài khoản người dùng", "Index", "AccountUser", new { area = "Admin" }, new { @class = "nav-link collapsed" })
+            </li>
+            <li class="nav-item">
+                @Html.ActionLink("Tài khoản quản trị viên", "Index", "AccountAdmin", new { area = "Admin" }, new { @class = "nav-link collapsed" })
+            </li>
+            <!-- Divider -->
+            <!-- Heading -->
+            <!-- Nav Item - Pages Collapse Menu -->
+            <!-- Nav Item - Charts -->
+            <!-- Divider -->
+            <hr class="sidebar-divider d-none d-md-block">
+
+            <!-- Sidebar Toggler (Sidebar) -->
+            <div class="text-center d-none d-md-inline">
+                <button class="rounded-circle border-0" id="sidebarToggle"></button>
+            </div>
+
+        </ul>
+        <!-- End of Sidebar -->
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+
+            <!-- Main Content -->
+            <div id="content">
+
+                <!-- Topbar -->
+                <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+                    <!-- Sidebar Toggle (Topbar) -->
+                    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                        <i class="fa fa-bars"></i>
+                    </button>
+
+                    <!-- Topbar Search -->
+             
+
+                    <!-- Topbar Navbar -->
+                    <ul class="navbar-nav ml-auto">
+
+                        <!-- Nav Item - Search Dropdown (Visible Only XS) -->
+            
+
+                        <!-- Nav Item - Alerts -->
+                      
+
+                        <!-- Nav Item - Messages -->
+                       
+
+                        <div class="topbar-divider d-none d-sm-block"></div>
+
+                        <!-- Nav Item - User Information -->
+                        <li class="nav-item dropdown no-arrow">
+                            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
+                               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+                                <img class="img-profile mr-2 rounded-circle"
+                                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI8ng4psBMjSWKi7txMchONWFHrEWcOO8f1w&usqp=CAU">
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 smfall">@user.admin_username</span>
+                            </a>
+                            <!-- Dropdown - User Information -->
+                            <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
+                                 aria-labelledby="userDropdown">
+                                @*<a class="dropdown-item" href="#">
+                                    <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Profile
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Settings
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Activity Log
+                                </a>*@
+                                <div class="dropdown-divider"></div>
+                                <a style="text-decoration: none ;margin-left:30px; color:black" href="/User/Login">LOG OUT</a>
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </nav>
+                <!-- End of Topbar -->
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+
+                    @RenderBody()
+
+                </div>
+                <!-- /.container-fluid -->
+
+            </div>
+            <!-- End of Main Content -->
+            <!-- Footer -->
+            <footer class="sticky-footer bg-white">
+                <div class="container my-auto">
+                    <div class="copyright text-center my-auto">
+                        <span>Copyright &copy; Your Website 2020</span>
+                    </div>
+                </div>
+            </footer>
+            <!-- End of Footer -->
+
+        </div>
+        <!-- End of Content Wrapper -->
+
+    </div>
+    <!-- End of Page Wrapper -->
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Logout Modal-->
+    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                    <a class="btn btn-primary" href="login.html">Logout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+
+    <script src="~/accset/vendor/jquery/jquery.min.js"></script>
+    <script src="~/accset/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Core plugin JavaScript-->
+    <script src="~/accset/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for all pages-->
+    <script src="~/accset/js/sb-admin-2.min.js"></script>
+
+    <!-- Page level plugins -->
+    <script src="~/accset/vendor/chart.js/Chart.min.js"></script>
+    <script src="@Url.Content("~/Scripts/jquery.validate.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/jquery.validate.unobtrusive.min.js")" type="text/javascript"></script>
+    <script src="~/plugin/ckeditor/ckeditor.js"></script>
+
+    <!-- Page level custom scripts -->
+    <script src="~/accset/js/demo/chart-area-demo.js"></script>
+    <script src="~/accset/js/demo/chart-pie-demo.js"></script>
+    <script src="~/accset/js/demo/chart-bar-demo.js"></script>
+    @RenderSection("scripts", required: false)
+
+</body>
+</html>
