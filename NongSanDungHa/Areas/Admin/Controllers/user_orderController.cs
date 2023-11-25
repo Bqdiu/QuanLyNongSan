@@ -59,5 +59,13 @@ namespace NongSanDungHa.Areas.Admin.Controllers
             list.delete(id);
             return RedirectToAction("Index");
         }
+
+        public ActionResult SearchResult(int searchKey)
+        {
+            ListUser_Order list = new ListUser_Order();
+            List<user_order> lstSearch = list.getUserOrder(searchKey).ToList();
+            ViewBag.searchKey = searchKey;
+            return View(lstSearch);
+        }
     }
 }

@@ -61,5 +61,13 @@ namespace NongSanDungHa.Areas.Admin.Controllers
             list.delete(id);
             return RedirectToAction("Index");
         }
+
+        public ActionResult SearchResult(int searchKey)
+        {
+            ListProductImage list = new ListProductImage();
+            List<product_image> lstSearch = list.getImageProduct(searchKey).ToList();
+            ViewBag.searchKey = searchKey;
+            return View(lstSearch);
+        }
     }
 }

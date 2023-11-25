@@ -123,7 +123,29 @@ namespace NongSanDungHa.Models.ADO
             cmd.Dispose();
             con.Close();
         }
+        public List<product_category> search(string key)
+        {
+            List<product_category> list = new List<product_category>();
 
+            string sql = "Select * from product_category where product_category_name like '%' + @searchKey + '%'";
+            SqlConnection con = db.GetConnection();
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand(sql, con);
+            cmd.Parameters.Add("@searchKey", key);
+            SqlDataReader dr = cmd.ExecuteReader();
+            while (dr.Read())
+            {
+                product_category item = new product_category();
+                item.product_category_id = int.Parse(dr["product_category_id"].ToString());
+                item.product_category_name = dr["product_category_name"].ToString();
+                item.product_category_description = dr["product_category_description"].ToString();
+                list.Add(item);
+            }
+            con.Close();
+            return list;
+
+        }
         public int GetTotalCategories()
         {
             SqlConnection con = db.GetConnection();
@@ -144,7 +166,7 @@ namespace NongSanDungHa.Models.ADO
             }
             finally
             {
-                con.Close(); 
+                con.Close();
             }
         }
     }

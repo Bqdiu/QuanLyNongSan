@@ -59,7 +59,7 @@ namespace NongSanDungHa.Models
     partial void Deleteuser_order(user_order instance);
 		#endregion
 
-		private static string conn = "Data Source=MSI\\QUANGDIEU	;Initial Catalog=BANHANGNONGSAN;Integrated Security=True";
+		private static string conn = "Data Source=MSI\\QUANGDIEU;Initial Catalog=BANHANGNONGSAN;Integrated Security=True";
 
         public DBNongSanDungHaDataContext() :
                 base(conn, mappingSource)

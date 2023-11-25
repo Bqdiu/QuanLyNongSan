@@ -6,19 +6,24 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-
+using PagedList;
+using PagedList.Mvc;
 namespace NongSanDungHa.Areas.Admin.Controllers
 {
     public class productController : Controller
     {
         DBConnection db = new DBConnection();
         // GET: Admin/product
-        public ActionResult Index()
+        public ActionResult Index(int ?page)
         {
             ListProduct pro = new ListProduct();
             ViewBag.TotalProduct = pro.getData().Count();
-            List< product> list = pro.getData().ToList();
-            return View(list);
+            List<product> list = pro.getData().ToList();
+            //Paged List
+            int pageSize = 8;
+            int pageNumber = page == null || page < 0 ? 1 : page.Value;
+            var lst = new PagedList<product>(list,pageNumber,pageSize);
+            return View(lst);
         }
         public ActionResult CreateNew()
         {
@@ -62,6 +67,13 @@ namespace NongSanDungHa.Areas.Admin.Controllers
             
             list.delete(id);
             return RedirectToAction("Index");
+        }
+        public ActionResult SearchResult(string searchKey)
+        {
+            ListProduct list = new ListProduct();
+            List<product> lstSearch = list.search(searchKey).ToList();
+            ViewBag.searchKey = searchKey;
+            return View(lstSearch);
         }
     }
 }

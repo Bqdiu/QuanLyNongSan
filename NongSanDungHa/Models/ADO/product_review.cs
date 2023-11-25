@@ -137,6 +137,29 @@ namespace NongSanDungHa.Models.ADO
             cmd.Dispose();
             con.Close();
         }
+        public List<product_review> getProductReview(int user_account_id)
+        {
+            string sql;
+            sql = "Select * from product_review where user_account_id = " + user_account_id;
+            List<product_review> list = new List<product_review>();
+            SqlConnection con = db.GetConnection();
+            con.Open();
+            SqlCommand cmd = new SqlCommand(sql, con);
+            SqlDataReader dr = cmd.ExecuteReader();
 
+            while (dr.Read())
+            {
+                product_review item = new product_review();
+                item.product_review_id = int.Parse(dr["product_review_id"].ToString());
+                item.user_account_id = int.Parse(dr["user_account_id"].ToString());
+                item.product_id = int.Parse(dr["product_id"].ToString());
+                item.product_review_content = dr["product_review_content"].ToString();
+                item.review_owner = dr["review_owner"].ToString();
+                list.Add(item);
+            }
+            con.Close();
+            return list;
+
+        }
     }
 }

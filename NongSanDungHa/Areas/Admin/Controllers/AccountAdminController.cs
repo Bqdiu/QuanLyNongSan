@@ -5,7 +5,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-
+using PagedList;
+using PagedList.Mvc;
 namespace NongSanDungHa.Areas.Admin.Controllers
 {
     public class AccountAdminController : Controller
@@ -13,12 +14,16 @@ namespace NongSanDungHa.Areas.Admin.Controllers
         // GET: Admin/AccountAdmin
         DBConnection db = new DBConnection();
 
-        public ActionResult Index()
+        public ActionResult Index(int ?page)
         {
+           
             ListAdminAccount user = new ListAdminAccount();
             ViewBag.TotalAdmin = user.getData().Count();
             List<admin_account> list = user.getData().ToList();
-            return View(list);
+            int pageSize = 8;
+            int pageNumber = page == null || page < 0 ? 1 : page.Value;
+            PagedList<admin_account> lst = new PagedList<admin_account>(list, pageNumber, pageSize);
+            return View(lst);
         }
         public ActionResult CreateNew()
         {

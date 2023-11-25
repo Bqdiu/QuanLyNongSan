@@ -1,31 +1,14 @@
 ﻿@model IEnumerable<NongSanDungHa.Models.ADO.product>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "SearchResult";
     Layout = "~/Areas/Admin/Views/Shared/LayoutAdmin.cshtml";
 }
 
-<h2>Sản Phẩm</h2>
-<form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search" action="/Admin/product/SearchResult" method="get">
-    <div class="input-group">
-        <input type="search" class="form-control bg-light border-0 small" placeholder="Search by name"
-               aria-label="Search" aria-describedby="basic-addon2" name="searchKey">
-        <div class="input-group-append">
-            <button class="btn btn-primary" style="background-color: #52a851;" type="submit" name="submit">
-                <i class="fas fa-search fa-sm"></i>
-            </button>
-        </div>
-    </div>
-</form>
-
-<p>
-    @Html.ActionLink("Thêm mới", "CreateNew")
-</p>
-
-<p>
-
-    Tổng số sản phẩm: @ViewBag.TotalProduct
-</p>
+<h2>SearchResult</h2>
+<div class="col-md-12 mb-4">
+    <h1 style="color: #28a745">Bạn tìm Sản Phẩm "@ViewBag.searchKey"</h1>
+</div>
 <table class="table">
     <tr>
         <th>
@@ -76,3 +59,7 @@
     }
 
 </table>
+
+<div>
+    @Html.ActionLink("Trở về danh sách", "Index")
+</div>

@@ -7,10 +7,10 @@ using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Web;
-    
+
 namespace NongSanDungHa.Models.ADO
 {
-    public class user_order  
+    public class user_order
     {
         public user_order()
         {
@@ -65,10 +65,10 @@ namespace NongSanDungHa.Models.ADO
         [Range(0, int.MaxValue, ErrorMessage = "Tổng tiền không hợp lệ")]
         public decimal? order_total_value { get; set; }
 
-        [Required(ErrorMessage ="Không được để trống")]
+        [Required(ErrorMessage = "Không được để trống")]
         [Display(Name = "Phương thức thanh toán")]
-        [StringLength (20)]
-        [RegularExpression("@^[^0-9]*$",ErrorMessage = "Không được chứa kí tự số")]
+        [StringLength(20)]
+        [RegularExpression("@^[^0-9]*$", ErrorMessage = "Không được chứa kí tự số")]
         public string payments { get; set; }
     }
     public partial class ListUser_Order
@@ -225,7 +225,35 @@ namespace NongSanDungHa.Models.ADO
                 con.Close();
             }
         }
+        public List<user_order> getUserOrder(int user_account_id)
+        {
+            string sql;
+            sql = "Select * from user_order where user_account_id = " + user_account_id;
+            List<user_order> list = new List<user_order>();
+            SqlConnection con = db.GetConnection();
+            con.Open();
+            SqlCommand cmd = new SqlCommand(sql, con);
+            SqlDataReader dr = cmd.ExecuteReader();
 
+            while (dr.Read())
+            {
+                user_order item = new user_order();
+                item.user_order_id = int.Parse(dr["user_order_id"].ToString());
+                item.user_account_id = int.Parse(dr["user_account_id"].ToString());
+                item.order_time = DateTime.Parse(dr["order_time"].ToString());
+                item.user_order_buyer_name = dr["user_order_buyer_name"].ToString();
+                item.user_order_address = dr["user_order_address"].ToString();
+                item.user_order_email = dr["user_order_email"].ToString();
+                item.user_order_phonenumber = dr["user_order_phonenumber"].ToString();
+                item.is_processed = dr["is_processed"].ToString();
+                item.is_delivered = dr["is_delivered"].ToString();
+                item.order_total_value = decimal.Parse(dr["order_total_value"].ToString());
+                list.Add(item);
+            }
+            con.Close();
+            return list;
+
+        }
         public decimal GetMonthlyRevenue()
         {
             SqlConnection con = db.GetConnection();

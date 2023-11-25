@@ -1,9 +1,11 @@
-﻿@model IEnumerable<NongSanDungHa.Models.ADO.admin_account>
+﻿@model PagedList<NongSanDungHa.Models.ADO.admin_account>
 
 @{
     ViewBag.Title = "Index";
     Layout = "~/Areas/Admin/Views/Shared/LayoutAdmin.cshtml";
 }
+@using PagedList;
+@using PagedList.Mvc;
 
 <h2>Tài khoản quản trị viên</h2>
 
@@ -16,28 +18,34 @@
 <table class="table">
     <tr>
         <th>
-            @Html.DisplayNameFor(model => model.admin_username)
+            @Html.DisplayName("Tài khoản")
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.admin_password)
+            @Html.DisplayName("Mật khẩu")
         </th>
         <th></th>
     </tr>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.admin_username)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.admin_password)
-        </td>
-        <td>
-            @Html.ActionLink("Sửa", "Edit", new { id=item.admin_account_id }) |
-            @Html.ActionLink("Chi tiết", "Detail", new { id=item.admin_account_id }) |
-            @Html.ActionLink("Xóa", "Delete", new { id=item.admin_account_id })
-        </td>
-    </tr>
-}
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.admin_username)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.admin_password)
+            </td>
+            <td>
+                @Html.ActionLink("Sửa", "Edit", new { id = item.admin_account_id }) |
+                @Html.ActionLink("Chi tiết", "Detail", new { id = item.admin_account_id }) |
+                @Html.ActionLink("Xóa", "Delete", new { id = item.admin_account_id })
+            </td>
+        </tr>
+    }
 
 </table>
+<nav aria-label="Page navigation example" style="display: flex;justify-content:center;align-items:center">
+    <ul class="pagination ">
+        @Html.PagedListPager(Model, page => Url.Action("Index", new { page = page }), new PagedListRenderOptions { LiElementClasses = new string[] { "page-item" } })
+    </ul>
+</nav>

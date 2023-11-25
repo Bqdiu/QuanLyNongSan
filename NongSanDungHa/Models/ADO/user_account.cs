@@ -14,7 +14,7 @@ namespace NongSanDungHa.Models.ADO
 
         [Key]
         [Display(Name = "ID")]
-       
+
         public int user_account_id { get; set; }
 
         [Display(Name = "Tên tài khoản")]
@@ -255,7 +255,7 @@ namespace NongSanDungHa.Models.ADO
             }
             finally
             {
-                con.Close(); 
+                con.Close();
             }
         }
 

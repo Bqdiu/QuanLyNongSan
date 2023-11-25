@@ -23,7 +23,7 @@ namespace NongSanDungHa.Models.ADO
         public int? product_category_id { get; set; }
         [StringLength(255, ErrorMessage = "Vui lòng nhập tối đa 255 ký tự")]
         [Display(Name = "Tên Sản Phẩm")]
-      
+
         [Required(ErrorMessage = "Bạn cần nhập vào tên sản phẩm")]
         public string product_name { get; set; }
 

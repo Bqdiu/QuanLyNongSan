@@ -148,6 +148,7 @@
     <Compile Include="Areas\Admin\Controllers\productController.cs" />
     <Compile Include="Areas\Admin\Controllers\product_imageController.cs" />
     <Compile Include="Areas\Admin\Controllers\product_reviewController.cs" />
+    <Compile Include="Areas\Admin\Controllers\testController.cs" />
     <Compile Include="Areas\Admin\Controllers\user_orderController.cs" />
     <Compile Include="Areas\Admin\Controllers\user_order_productController.cs" />
     <Compile Include="common\MailHelper.cs" />
@@ -194,6 +195,7 @@
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="Content\PagedList.css" />
+    <Content Include="Content\Pagination.css" />
     <Content Include="Content\template-Email\neworder.html" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
@@ -1235,6 +1237,12 @@
       <LastGenOutput>DBNongSanDungHa.designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="Areas\Admin\Views\product_image\SearchResult.cshtml" />
+    <Content Include="Areas\Admin\Views\product\SearchResult.cshtml" />
+    <Content Include="Areas\Admin\Views\Category\SearchResult.cshtml" />
+    <Content Include="Areas\Admin\Views\user_order_product\SearchResult.cshtml" />
+    <Content Include="Areas\Admin\Views\product_review\SearchResult.cshtml" />
+    <Content Include="Areas\Admin\Views\user_order\SearchResult.cshtml" />
     <None Include="Models\DBNongSanDungHa.dbml.layout">
       <DependentUpon>DBNongSanDungHa.dbml</DependentUpon>
     </None>
@@ -1280,7 +1288,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Areas\Admin\Data\" />
-    <Folder Include="Areas\Admin\Views\MuoiGioKemBay\" />
+    <Folder Include="Areas\Admin\Views\test\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.rtl.min.css.map" />
